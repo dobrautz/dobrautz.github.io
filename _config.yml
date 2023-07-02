@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Welcome! UNDER CONSTRUCTION! # the website title (if blank, full name will be used instead)
+title: Werner Dobrautz -- Research Blog  !UNDER CONSTRUCTION! # the website title (if blank, full name will be used instead)
 first_name: Werner
 middle_name: 
 last_name: Dobrautz
 email: werner.dobrautz@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: Personal webpage about myself and my quantum physics and chemistry research. > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,7 +16,7 @@ footer_text: >
 keywords: Research, Computational Physics, Quantum Chemistry, Quantum Computing  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 'qc-squared-logo.png' # ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: # https://dobrautz.github.io # the base hostname & protocol for your site
 baseurl: # /dobrautz # /al-folio # the subpath of your site, e.g. /blog/
