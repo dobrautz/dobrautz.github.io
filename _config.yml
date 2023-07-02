@@ -16,7 +16,7 @@ footer_text: >
 keywords: Research, Computational Physics, Quantum Chemistry, Quantum Computing  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ #'qc-squared-logo.png' #   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 'qc-squared-logo.png' #  ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: # https://dobrautz.github.io # the base hostname & protocol for your site
 baseurl: # /dobrautz # /al-folio # the subpath of your site, e.g. /blog/
