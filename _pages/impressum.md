@@ -7,8 +7,10 @@ permalink: /impressum/
 <p style="text-align: center;">
 Impressum 
 
-Werner Dobrautz,
+Werner Dobrautz
+
 Kemigården 4,
+
 41258 Gothenburg, Sweden
 
 Contact:
