@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.chalmers.se/'>Chalmers University of Technology</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.chalmers.se/'>Chalmers University of Technology</a>. 
 
 profile:
   align: right
