@@ -1,3 +1,6 @@
+permalink: /impressum/
+
+<p style="text-align: center;">
 Impressum 
 
 Werner Dobrautz
@@ -7,3 +10,4 @@ Kemigården 4
 Contact:
 
 E-Mail: werner.dobrautz@gmail.com
+</p>
