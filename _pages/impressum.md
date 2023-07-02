@@ -1,6 +1,6 @@
 ---
 layout: impressum
-title: impressum
+title: Imprint
 permalink: /impressum/
 ---
 
