@@ -1,4 +1,8 @@
+---
+layout: impressum
+title: impressum
 permalink: /impressum/
+---
 
 <p style="text-align: center;">
 Impressum 
