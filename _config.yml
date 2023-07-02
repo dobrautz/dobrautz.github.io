@@ -122,7 +122,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Cupcakes, Mice and other Whakos # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Mostly about my research, maybe something else from time to time...
 permalink: /blog/:year/:title/
 
