@@ -76,30 +76,26 @@
       year: Since 2021
       description:  Qiskit is an open-source quantum computing software development framework for leveraging today's quantum processors in research, education, and business. 
     
-- title: Honors and Awards
+- title: Honors, Awards and Scholarship
   type: time_table
   contents:
-    - year: XXX
+    - year: 2022
       items: 
-        - TODO 
-        - TODO
-    - year: XX
-      items: 
-        - TODO
-
+        - Marie Skłodowska-Curie Postdoctoral Fellowship 
+        
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
+    - title: Quantum Chemistry
+    - title: Quantum Computing
+    - title: Quantum Monte Carlo
+    - title: Method development
+    - title: Electronic Structure Theory
+    - title: Quantum Many-body physics
+    - title: Strongly Correlated Electron Systems
+    - title: Computational Solid State Physics
+   
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, Running, Basketball, Meditation, Chess, Coffee, Table Tennis, Hiking
