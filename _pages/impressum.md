@@ -6,13 +6,12 @@ permalink: /impressum/
 
 <p style="text-align: center;">
 
-Werner Dobrautz, 
+Werner Dobrautz <br><br>
 
-Kemigården 4, 
+Kemigården 4,<br>
+41258 Gothenburg, Sweden, <br><br>
 
-41258 Gothenburg, Sweden,   
-
-Contact:   
+Contact: <br>
 
 E-Mail: werner.dobrautz@gmail.com  
 </p>
