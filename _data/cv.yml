@@ -76,27 +76,29 @@
       year: Since 2021
       description:  Qiskit is an open-source quantum computing software development framework for leveraging today's quantum processors in research, education, and business. 
 
-- title: Talks and Posters
+- title: Invited Seminars
   type: time_table
   contents:
-    - title: Invited Seminars
-      contents:
-        - title: Test
-          year: xxx
-          description: XXX
-        - title: Test
-          year: xxx
-          description: XXX
-    - title: Talks
-      contents: 
-        - title: Test
-          year: xxx
-          description: XXX
-        - title: Test
-          year: xxx
-          description: XXX
-      
-          
+    - title: Reducing necessary quantum hardware resources with explicitly correlated methods
+      year: 2023
+      description: at Algorithmiq Ltd., Helsinki, Finland
+    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+      year: 2022
+      description: at Max Planck Institute for Solid State Research, Stuttgart, Germany
+    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+      year: 2021
+      description: at IBM Research Zürich, Rüschlikon, Switzerland
+
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2022 
+      description: at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2020
+      description: at King's College, Department of Physics, London, UK
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2019 
+      description: at Vienna University of Technology, Department of Physics, Vienna, Austria
+
 - title: Honors, Awards, and Scholarships
   type: time_table
   contents:
