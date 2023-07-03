@@ -75,8 +75,29 @@
     - title: <a href="https://github.com/Qiskit">'Qiskit - An open-source SDK for working with quantum computers at the level of pulses, circuits, and algorithms.' </a>
       year: Since 2021
       description:  Qiskit is an open-source quantum computing software development framework for leveraging today's quantum processors in research, education, and business. 
-    
-- title: Honors, Awards and Scholarship
+
+- title: Talks and Posters
+  type: time_table
+  contents:
+    - title: Invited Seminars
+      contents:
+        - title: Test
+          year: xxx
+          description: XXX
+        - title: Test
+          year: xxx
+          description: XXX
+    - title: Talks
+      contents: 
+        - title: Test
+          year: xxx
+          description: XXX
+        - title: Test
+          year: xxx
+          description: XXX
+      
+          
+- title: Honors, Awards, and Scholarships
   type: time_table
   contents:
     - year: 2022
@@ -98,4 +119,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Reading, Running, Basketball, Meditation, Chess, Coffee, Table Tennis, Hiking
+    - <u>Hobbies:</u> Reading, Running, Basketball, Meditation, Chess, Coffee, Table Tennis, Hiking, ...
