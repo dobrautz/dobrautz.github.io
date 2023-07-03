@@ -154,7 +154,7 @@
   contents:
     - title: APS March Meeting, Las Vegas, USA
       year: 2023
-      description: Reference-State Error Mitigation: A Strategy for High Accuracy Quantum Computation of Chemistry
+      description: 'Reference-State Error Mitigation: A Strategy for High Accuracy Quantum Computation of Chemistry'
     - title:  A nano focus on quantum materials, Chalmers University of Technology, Gothenburg, Sweden
       year: 2023
       description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
