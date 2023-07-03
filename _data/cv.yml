@@ -7,26 +7,32 @@
       value: 2nd November 1987
     - name: Languages
       value: English, German
+    - name: E-Mail
+      value: werner.dobrautz@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Max Planck Institute for Solid State Research, University of Stuttgart
+    - title: PhD (Dr.rer.nat.)
+      institution: Max Planck Institute for Solid State Research and University of Stuttgart, Germany
       year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - in theoretical quantum chemistry (summa cum laude). Supervised by Prof. Ali Alavi.
+        - title: Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Master of Science, Diplom Ingenieur
+            - <a href="https://elib.uni-stuttgart.de/bitstream/11682/10610/3/werner_dobrautz_thesis_ub_abgabe_v2.pdf">
+             Development of full configuration interaction quantum Monte Carlo (FCIQMC) methods for strongly correlated electron systems</a>
+    - title: Master of Science (Dipl.-Ing.)
       institution: Graz University of Technology
       year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - in Technical Physics (with distinction). 
+        - Focus on: Theoretical and Computational Physics. 
+        - title: Thesis (Supervised by Prof. Wolfgang von der Linden)
+          contents: 
+          - <a href="https://diglib.tugraz.at/application-of-the-full-configuration-interaction-quantum-monte-carlo-algorithm-to-the-two-dimensional-fermionic-hubbard-model-2014">
+           Application of the full configuration interaction quantum Monte Carlo algorithm to the two-dimensional fermionic Hubbard model</a>
+
 
 - title: Experience
   type: time_table
