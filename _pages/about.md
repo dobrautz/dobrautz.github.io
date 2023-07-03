@@ -18,6 +18,6 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Welcome to my research homepage!
-My name is Werner Dobrautz, and I am a Marie Skłodowska-Curie Postdoctoral Fellow at Chalmers University of Technology in Gothenburg. 
+Welcome to my research homepage! <br><br>
+My name is Werner Dobrautz, and I am a Marie Skłodowska-Curie Postdoctoral Fellow at Chalmers University of Technology in Gothenburg. <br><br>
 My research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic quantum chemistry calculations on high-performance computing hardware and near-term quantum computing devices.
