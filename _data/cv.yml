@@ -7,59 +7,75 @@
       value: 2nd November 1987
     - name: Languages
       value: English, German
+    - name: E-Mail
+      value: werner.dobrautz@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Max Planck Institute for Solid State Research, University of Stuttgart
+    - title: PhD (Dr.rer.nat.)
+      institution: Max Planck Institute for Solid State Research and University of Stuttgart, Germany
       year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - In theoretical quantum chemistry (summa cum laude). Supervised by Prof. Ali Alavi.
+        - title: Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Master of Science, Diplom Ingenieur
-      institution: Graz University of Technology
+            - <a href="https://elib.uni-stuttgart.de/bitstream/11682/10610/3/werner_dobrautz_thesis_ub_abgabe_v2.pdf">
+             Development of full configuration interaction quantum Monte Carlo (FCIQMC) methods for strongly correlated electron systems</a>
+    - title: Master of Science (Dipl.-Ing.)
+      institution: Graz University of Technology, Graz, Austria
       year: 2014
       description:
-        - Description 1.
-        - Description 2.
+        - 'In Technical Physics (with distinction). Focus on Theoretical and Computational Physics.'
+        - title: Thesis (Supervised by Prof. Wolfgang von der Linden)
+          contents: 
+          - <a href="https://diglib.tugraz.at/application-of-the-full-configuration-interaction-quantum-monte-carlo-algorithm-to-the-two-dimensional-fermionic-hubbard-model-2014">
+           Application of the full configuration interaction quantum Monte Carlo algorithm to the two-dimensional fermionic Hubbard model</a>
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: TODO
-      institution: TODO
-      year: XXX
+    - title: 'Remote Fellow -- Young Investigator Group Preparation Program'
+      institution: Karlsruhe Institute of Technology, Steinbuch Centre for Computing,  Karlsruhe, Germany
+      year: Since 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: TODO
-      institution: TODO
-      year: XXX
+        - Preparation and Mentorship Program for Independent Group Leader Funding Applications
+    - title: Marie Skłodowska-Curie Postdoctoral Fellow
+      institution: Chalmers University of Technology and Wallenberg Centre for Quantum Technology, Gothenburg, Sweden
+      year: Since 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Quantum algorithm development to enable accurate and efficient ab initio calculations on current and near-term quantum computers.
 
-    - title: TODO
-      institution: TODO.
-      year: 
+    - title: Postdoc
+      institution: Chalmers University of Technology, Gothenburg and IBM Academic Network
+      year: '2021 - 2022'
+      description:
+        - Development of novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices.
 
+    - title: Postdoc
+      institution: Max Planck Institute for Solid State Research, Stuttgart, Germany
+      year: '2019 - 2021'
+      description:
+        - Development of highly accurate quantum Monte Carlo methods for strongly correlated electron systems. Application to solid-state model Hamiltonians and strongly correlated bio-chemical transition-metal clusters.
+        - Development of highly optimized massively parallel algorithms for high-performance computing centers.
+        - Collaboration with industry partners to enable accurate quantum chemical calculations on NISQ quantum computing devices.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/todo">todo</a>
-      year: XXX
-      description: 
-      
+    - title: <a href="https://github.com/ghb24/NECI_STABLE">'NECI - full configuration interaction quantum Monte Carlo code' </a>
+      year: Since 2014
+      description: NECI, a state-of-the-art implementation of the Full Configuration Interaction Quantum Monte Carlo (FCIQMC) algorithm, a method based on a stochastic application of the Hamiltonian matrix on a sparse sampling of the wave function. The program utilizes a very powerful parallelization and scales efficiently to more than 24 000 central processing unit cores.
+    
+    - title: <a href="https://gitlab.com/Molcas/OpenMolcas">'OpenMolcas - a quantum chemistry software package' </a>
+      year: Since 2014
+      description: A general-purpose quantum chemistry software package with a focus on a multiconfigurational approach to the electronic structure problem.
+
+    - title: <a href="https://github.com/Qiskit">'Qiskit - An open-source SDK for working with quantum computers at the level of pulses, circuits, and algorithms.' </a>
+      year: Since 2021
+      description:  Qiskit is an open-source quantum computing software development framework for leveraging today's quantum processors in research, education, and business. 
+    
 - title: Honors and Awards
   type: time_table
   contents:
