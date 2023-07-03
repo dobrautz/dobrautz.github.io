@@ -65,7 +65,7 @@
   type: nested_list
   contents: 
     - title: Computational Chemistry Software
-      description: 
+      items: 
       - Expert knowledge of quantum Monte Carlo methods, esp. NECI. Well-experienced with PySCF and OpenMolcas. 
       - Knowledge of Molpro, iTensor, BlockDMRG, CASINO, TensorFlow, ALPS, Triqs and QuantumPackage
   
