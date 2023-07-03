@@ -61,6 +61,12 @@
           - <a href="https://diglib.tugraz.at/application-of-the-full-configuration-interaction-quantum-monte-carlo-algorithm-to-the-two-dimensional-fermionic-hubbard-model-2014">
            Application of the full configuration interaction quantum Monte Carlo algorithm to the two-dimensional fermionic Hubbard model</a>
 
+- title: Research-related Competences
+  type: nested_list
+  contents: 
+    - title: Computational Chemistry Software
+      description: Expert knowledge of quantum Monte Carlo methods, esp. NECI. Well-experienced with PySCF and OpenMolcas. Knowledge of Molpro, iTensor, BlockDMRG, CASINO, TensorFlow, ALPS, Triqs and QuantumPackage
+  
 - title: Honors, Awards, and Scholarships
   type: time_table
   contents:
