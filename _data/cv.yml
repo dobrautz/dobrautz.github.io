@@ -49,19 +49,17 @@
 
     - title: Postdoc
       institution: Chalmers University of Technology, Gothenburg and IBM Academic Network
-      year: 2021 - 2022
+      year: '2021 - 2022'
       description:
-        - Development of novel quantum computing algorithms to perform realistic ab initio calculations on 
-		near-term quantum computing devices.
+        - Development of novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices.
 
     - title: Postdoc
       institution: Max Planck Institute for Solid State Research, Stuttgart, Germany
-      year: 2019 - 2021
+      year: '2019 - 2021'
       description:
         - Development of highly accurate quantum Monte Carlo methods for strongly correlated electron systems. Application to solid-state model Hamiltonians and strongly correlated bio-chemical transition-metal clusters.
         - Development of highly optimized massively parallel algorithms for high-performance computing centers.
-        - Collaboration with industry partners to enable accurate quantum chemical calculations on NISQ 
-			quantum computing devices.
+        - Collaboration with industry partners to enable accurate quantum chemical calculations on NISQ quantum computing devices.
 
 - title: Open Source Projects
   type: time_table
