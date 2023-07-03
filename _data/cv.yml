@@ -17,7 +17,7 @@
       institution: Max Planck Institute for Solid State Research and University of Stuttgart, Germany
       year: 2019
       description:
-        - in theoretical quantum chemistry (summa cum laude). Supervised by Prof. Ali Alavi.
+        - In theoretical quantum chemistry (summa cum laude). Supervised by Prof. Ali Alavi.
         - title: Thesis
           contents:
             - <a href="https://elib.uni-stuttgart.de/bitstream/11682/10610/3/werner_dobrautz_thesis_ub_abgabe_v2.pdf">
@@ -26,8 +26,7 @@
       institution: Graz University of Technology
       year: 2014
       description:
-        - in Technical Physics (with distinction). 
-        - Focus on: Theoretical and Computational Physics. 
+        - 'In Technical Physics (with distinction). Focus on Theoretical and Computational Physics.'
         - title: Thesis (Supervised by Prof. Wolfgang von der Linden)
           contents: 
           - <a href="https://diglib.tugraz.at/application-of-the-full-configuration-interaction-quantum-monte-carlo-algorithm-to-the-two-dimensional-fermionic-hubbard-model-2014">
