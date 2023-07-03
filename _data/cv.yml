@@ -64,10 +64,18 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/todo">todo</a>
-      year: XXX
-      description: 
-      
+    - title: <a href="https://github.com/ghb24/NECI_STABLE">'NECI - full configuration interaction quantum Monte Carlo code' </a>
+      year: Since 2014
+      description: NECI, a state-of-the-art implementation of the Full Configuration Interaction Quantum Monte Carlo (FCIQMC) algorithm, a method based on a stochastic application of the Hamiltonian matrix on a sparse sampling of the wave function. The program utilizes a very powerful parallelization and scales efficiently to more than 24 000 central processing unit cores.
+    
+    - title: <a href="https://gitlab.com/Molcas/OpenMolcas">'OpenMolcas - a quantum chemistry software package' </a>
+      year: Since 2014
+      description: A general-purpose quantum chemistry software package with a focus on a multiconfigurational approach to the electronic structure problem.
+
+    - title: <a href="https://github.com/Qiskit">'Qiskit - An open-source SDK for working with quantum computers at the level of pulses, circuits, and algorithms.' </a>
+      year: Since 2021
+      description:  Qiskit is an open-source quantum computing software development framework for leveraging today's quantum processors in research, education, and business. 
+    
 - title: Honors and Awards
   type: time_table
   contents:
