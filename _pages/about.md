@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About me
 permalink: /
 subtitle: <a href='https://www.chalmers.se/'>Chalmers University of Technology</a>. 
 
