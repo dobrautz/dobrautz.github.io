@@ -9,7 +9,6 @@ profile:
   image: WDobrautz-4-comp.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Floor 5. Room 5021.</p>
     <p>Kemigården 4</p>
     <p>41258 Gothenburg, Sweden</p>
 
