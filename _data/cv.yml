@@ -75,7 +75,12 @@
     - year: 2022
       items: 
         - Marie Skłodowska-Curie Postdoctoral Fellowship 
-        
+
+- title: Academic Service
+  type: nested_list
+  contents:
+    - title: Co-organizer of <a href="https://www.chalmers.se/en/conference/frontiers-of-near-term-quantum-computing">'Frontiers of near-term quantum computing workshop' </a> in Gothenburg, Sweden. 
+    - title: Reviewer for <em>ACS Omega, Molecular Physics</em> and the <em>International Journal of Quantum Chemistry</em>
 
 - title: Open Source Projects
   type: time_table
