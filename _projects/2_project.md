@@ -11,7 +11,7 @@ Work on spin symmetry via the graphical unitary group approach (GUGA)
 
 Related Publications: 
 <div class="publications">
-    {% bibliography -f {{ site.scholar.bibliography }} -q @*[project=guga]* %}
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[guga=true]* %}
 </div>
 
 <div class="row">
