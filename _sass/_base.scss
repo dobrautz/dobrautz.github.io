@@ -305,7 +305,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 1rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -585,9 +585,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        width: 150%;
+        width: 120%;
         min-width: 80px;
-        max-width: 300px;
+        max-width: 250px;
       }
 
       .abbr {
