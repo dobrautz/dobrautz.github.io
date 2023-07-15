@@ -6,6 +6,7 @@ inline: false
 related_posts: false
 ---
 
+
 A placeholder news post from the al-folio theme, to be learn interacting with the new homepage... 
 
 
