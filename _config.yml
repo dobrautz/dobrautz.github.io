@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 'Werner Dobrautz -- Research Blog'  # the website title (if blank, full name will be used instead)
+title: 'Werner Dobrautz'  # the website title (if blank, full name will be used instead)
 first_name: Werner
 middle_name: 
 last_name: Dobrautz
@@ -20,7 +20,7 @@ icon: 'qc-squared-logo.png' #  ⚛️  # the emoji used as the favicon (alternat
 
 url: https://dobrautz.github.io # the base hostname & protocol for your site
 baseurl: # /dobrautz # /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: /impressum/ # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -111,10 +111,10 @@ contact_note: # > You can even add a little note about which of these is the bes
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  G-ETHM4YWRMF # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: WP6htpv4WZkNsVOChheT1Wgy4dNEQv_pQ7fUjdaKRvQ # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
