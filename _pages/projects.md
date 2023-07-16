@@ -3,11 +3,13 @@ layout: page
 title: Research and Projects
 permalink: /projects/
 description: An overview of my past and current research projects
-nav: false
+nav: true
 nav_order: 2
 display_categories: [Research]
 horizontal: false
 ---
+
+UNDER CONSTRUCTION!
 
 <!-- pages/projects.md -->
 <div class="projects">
