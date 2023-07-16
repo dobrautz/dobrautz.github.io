@@ -5,7 +5,7 @@ permalink: /projects/
 description: An overview of my past and current research projects
 nav: false
 nav_order: 2
-display_categories: [Research, Leisure]
+display_categories: [Research]
 horizontal: false
 ---
 
