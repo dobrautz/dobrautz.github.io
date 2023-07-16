@@ -24,7 +24,7 @@
   arxiv={1709.00218},
   _pdf={PhysRevLett.121.056401.pdf},
   bibtex_show={true},
-  preview={time.png},
+  _preview={time.png},
   project_devel={true},
   project_fciqmc={true}
 }
@@ -51,7 +51,7 @@
   abstract={Similarity transformation of the Hubbard Hamiltonian using a Gutzwiller correlator leads to a non-Hermitian effective Hamiltonian, which can be expressed exactly in momentum-space representation and contains three-body interactions. We apply this methodology to study the two-dimensional Hubbard model with repulsive interactions near half filling in the intermediate interaction strength regime (U/t=4). We show that at optimal or near optimal strength of the Gutzwiller correlator, the similarity-transformed Hamiltonian has extremely compact right eigenvectors, which can be sampled to high accuracy using the full configuration interaction quantum Monte Carlo (FCIQMC) method and its initiator approximation. Near-optimal correlators can be obtained using a simple projective equation, thus obviating the need for a numerical optimization of the correlator. The FCIQMC method, as a projective technique, is well suited for such non-Hermitian problems, and its stochastic nature can handle the three-body interactions exactly without undue increase in computational cost. The highly compact nature of the right eigenvectors means that the initiator approximation in FCIQMC is not severe and that large lattices can be simulated, well beyond the reach of the method applied to the original Hubbard Hamiltonian. Results are provided in lattice sizes up to 50 sites and compared to auxiliary-field QMC. New benchmark results are provided in the off-half-filling regime, with no severe sign problem being encountered. In addition, we show that methodology can be used to calculate excited states of the Hubbard model and lay the groundwork for the calculation of observables other than the energy.},
   arxiv={1811.03607},
   bibtex_show={true},
-  preview={compact.png},
+  _preview={compact.png},
   project_tc={true},
   project_hubbard={true}
 }
@@ -77,7 +77,7 @@
   bibtex_show={true},
   _pdf={094104_1_online.pdf},
   selected={true},
-  preview={guga.png},
+  _preview={guga.png},
   project_guga={true},
   project_devel={true},
   project_fciqmc={true}
@@ -101,7 +101,7 @@
   abstract={By expressing the electronic wavefunction in an explicitly correlated (Jastrow-factorized) form, a similarity-transformed effective Hamiltonian can be derived. The effective Hamiltonian is non-Hermitian and contains three-body interactions. The resulting ground-state eigenvalue problem can be solved projectively using a stochastic configuration-interaction formalism. Our approach permits the use of highly flexible Jastrow functions, which we show to be effective in achieving extremely high accuracy, even with small basis sets. Results are presented for the total energies and ionization potentials of the first-row atoms, achieving accuracy within a mH of the basis-set limit, using modest basis sets and computational effort.},
   arxiv={1908.02882},
   bibtex_show={true},
-  preview={simtrans.png},
+  _preview={simtrans.png},
   _pdf={061101_1_online.pdf},
   project_tc={true}
 }
@@ -126,7 +126,7 @@
   abstract={We present a protocol based on unitary transformations of molecular orbitals to reduce the number of nonvanishing coefficients of spin-adapted configuration interaction expansions. Methods that exploit the sparsity of the Hamiltonian matrix and compactness of its eigensolutions, such as the full configuration interaction quantum Monte Carlo (FCIQMC) algorithm in its spin-adapted implementation, are well suited to this protocol. The wave function compression resulting from this approach is particularly attractive for antiferromagnetically coupled polynuclear spin systems, such as transition-metal cubanes in biocatalysis, and Mott and charge-transfer insulators in solid-state physics. Active space configuration interaction calculations on N2 and CN– at various bond lengths, the stretched square N4 compounds, the chromium dimer, and a [Fe2S2]2– model system are presented as a proof-of-concept. For the Cr2 case, large and intermediate bond distances are discussed, showing that the approach is effective in cases where static and dynamic correlations are equally important. The [Fe2S2]2– case shows the general applicability of the method.},
   _pdf={compression.pdf},
   bibtex_show={true},
-  preview={compression.gif},
+  _preview={compression.gif},
   project_guga={true},
   project_tm={true}
 }
@@ -221,7 +221,7 @@
   abstract={Polynuclear transition-metal (PNTM) clusters owe their catalytic activity to numerous energetically low-lying spin states and stable oxidation states. The characterization of their electronic structure represents one of the greatest challenges of modern chemistry. We propose a theoretical framework that enables the resolution of targeted electronic states with ease and apply it to two [Fe(III)4S4] cubanes. Through direct access to their many-body wave functions, we identify important correlation mechanisms and their interplay with the geometrical distortions observed in these clusters, which are core properties in understanding their catalytic activity. The simulated magnetic coupling constants predicted by our strategy allow us to make qualitative connections between spin interactions and geometrical distortions, demonstrating its predictive power. Moreover, despite its simplicity, the strategy provides magnetic coupling constants in good agreement with the available experimental ones. The complexes are intrinsically frustrated anti-ferromagnets, and the obtained spin structures together with the geometrical distortions represent two possible ways to release spin frustration (spin-driven Jahn–Teller distortion). Our paradigm provides a simple, yet rigorous, route to uncover the electronic structure of PNTM clusters and may be applied to a wide variety of such clusters.},
   _pdf={resolution.pdf},
   bibtex_show={true},
-  preview={resolution.gif},
+  _preview={resolution.gif},
   project_guga={true},
   project_tm={true}
 }
@@ -246,7 +246,7 @@
   abstract={In this work, we demonstrate how to efficiently compute the one- and two-body reduced density matrices within the spin-adapted full configuration interaction quantum Monte Carlo (FCIQMC) method, which is based on the graphical unitary group approach (GUGA). This allows us to use GUGA-FCIQMC as a spin-pure configuration interaction (CI) eigensolver within the complete active space self-consistent field (CASSCF) procedure and hence to stochastically treat active spaces far larger than conventional CI solvers while variationally relaxing orbitals for specific spin-pure states. We apply the method to investigate the spin ladder in iron–sulfur dimer and tetramer model systems. We demonstrate the importance of the orbital relaxation by comparing the Heisenberg model magnetic coupling parameters from the CASSCF procedure to those from a CI-only (CASCI) procedure based on restricted open-shell Hartree–Fock orbitals. We show that the orbital relaxation differentially stabilizes the lower-spin states, thus enlarging the coupling parameters with respect to the values predicted by ignoring orbital relaxation effects. Moreover, we find that, while CASCI results are well fit by a simple bilinear Heisenberg Hamiltonian, the CASSCF eigenvalues exhibit deviations that necessitate the inclusion of biquadratic terms in the model Hamiltonian.},
   _pdf={casscf.pdf},
   selected={true},
-  preview={casscf.png},
+  _preview={casscf.png},
   bibtex_show={true},
   project_guga={true},
   project_devel={true},
@@ -275,7 +275,7 @@
   abstract={A novel combined unitary and symmetric group approach is used to study the spin-12 Heisenberg model and related Fermionic systems in a total spin-adapted representation, using a linearly-parameterised Ansatz for the many-body wave function. We show that a more compact ground-state wave function representation—indicated by a larger leading ground-state coefficient—is obtained when combining the symmetric group Sn, in the form of permutations of the underlying lattice site ordering, with the cumulative spin coupling based on the unitary group U(n). In one-dimensional systems the observed compression of the wave function is reminiscent of block-spin renormalization group approaches, and allows us to study larger lattices (here taken up to 80 sites) with the spin-adapted full configuration interaction quantum Monte Carlo method, which benefits from the sparsity of the Hamiltonian matrix and the corresponding sampled eigenstates that emerge from the reordering. We find that in an optimal lattice ordering the configuration state function with highest weight already captures with high accuracy the spin-spin correlation function of the exact ground-state wave function. This feature is found for more general lattice models, such as the Hubbard model, and ab initio quantum chemical models, exemplified by one-dimensional hydrogen chains. We also provide numerical evidence that the optimal lattice ordering for the unitary group approach is not generally equivalent to the optimal ordering obtained for methods based on matrix-product states, such as the density-matrix renormalization group approach.},
   _pdf={combined.pdf},
   bibtex_show={true},
-  preview={combined.png},
+  _preview={combined.png},
   project_guga={true}
 }
 
@@ -323,7 +323,7 @@
   _pdf={rem.pdf},
   bibtex_show={true},
   selected={true},
-  preview={rem.png},
+  _preview={rem.png},
   project_quantum={true},
   project_mitigation={true}
 }
@@ -349,7 +349,7 @@
   abstract={Two-dimensional Hubbard lattices with two or three holes are investigated as a function of U in the large-U limit. In the so-called Nagaoka limit (one-hole system at infinite U), it is known that the Hubbard model exhibits a ferromagnetic ground state. Here, by means of exact full configuration interaction quantum Monte Carlo simulations applied to periodic lattices up to 24 sites, we compute spin-spin correlation functions as a function of increasing U. The correlation functions clearly demonstrate the onset of ferromagnetic domains, centered on individual holes. The overall total spin of the wave functions remains the lowest possible (0 or 12, depending on the number of holes). The ferromagnetic domains appear at interaction strengths comparable to the critical interaction strengths of the Nagaoka transition in finite systems with strictly one hole. The existence of such ferromagnetic domains is the signature of Nagaoka physics in Hubbard systems with a small (but greater than 1) number of holes.},
   _pdf={domains.pdf},
   bibtex_show={true},
-  preview={domains.png},
+  _preview={domains.png},
   project_guga={true},
   project_hubbard={true}
 }
@@ -370,7 +370,7 @@
   abstract={The developments of the open-source OpenMolcas chemistry software environment since spring 2020 are described, with a focus on novel functionalities accessible in the stable branch of the package or via interfaces with other packages. These developments span a wide range of topics in computational chemistry and are presented in thematic sections: electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report offers an overview of the chemical phenomena and processes OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.},
   _pdf={acs.jctc.3c00182.pdf},
   bibtex_show={true},
-  preview={molcas.jpeg},
+  _preview={molcas.jpeg},
   project_devel={true}
 }
 
@@ -418,7 +418,7 @@
   abstract={Transcorrelated methods provide an efficient way of partially transferring the description of electronic correlations from the ground-state wave function directly into the underlying Hamiltonian. In particular, Dobrautz et al. [Phys. Rev. B 99, 075119 (2019)] have demonstrated that the use of momentum-space representation, combined with a nonunitary similarity transformation, results in a Hubbard Hamiltonian that possesses a significantly more “compact” ground-state wave function, dominated by a single Slater determinant. This compactness/single-reference character greatly facilitates electronic structure calculations. As a consequence, however, the Hamiltonian becomes non-Hermitian, posing problems for quantum algorithms based on the variational principle. We overcome these limitations with the Ansatz-based quantum imaginary-time evolution algorithm and apply the transcorrelated method in the context of digital quantum computing. We demonstrate that this approach enables up to four orders of magnitude more accurate and compact solutions in various instances of the Hubbard model at intermediate interaction strength (U/t=4), enabling the use of shallower quantum circuits for wave-function Ansätzes. In addition, we propose a more efficient implementation of the quantum imaginary-time evolution algorithm in quantum circuits that is tailored to non-Hermitian problems. To validate our approach, we perform hardware experiments on the ibmq_lima quantum computer. Our work paves the way for the use of exact transcorrelated methods for the simulations of ab initio systems on quantum computers.},
   _pdf={orders.pdf},
   bibtex_show={true},
-  preview={hubbard-tc.png},
+  _preview={hubbard-tc.png},
   project_quantum={true},
   project_tc={true},
   project_hubbard={true}
@@ -452,7 +452,7 @@
   _pdf={2303.02007.pdf},
   selected={true},
   bibtex_show={true},
-  preview={abinit-tc.png},
+  _preview={abinit-tc.png},
   project_tc={true},
   project_quantum={true}
 }
