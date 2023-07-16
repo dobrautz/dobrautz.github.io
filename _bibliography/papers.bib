@@ -24,7 +24,8 @@
   arxiv={1709.00218},
   _pdf={PhysRevLett.121.056401.pdf},
   bibtex_show={true},
-  preview={time.png}
+  preview={time.png},
+  project_devel={true}
 }
 
 @article{PhysRevB.99.075119,
@@ -49,7 +50,9 @@
   abstract={Similarity transformation of the Hubbard Hamiltonian using a Gutzwiller correlator leads to a non-Hermitian effective Hamiltonian, which can be expressed exactly in momentum-space representation and contains three-body interactions. We apply this methodology to study the two-dimensional Hubbard model with repulsive interactions near half filling in the intermediate interaction strength regime (U/t=4). We show that at optimal or near optimal strength of the Gutzwiller correlator, the similarity-transformed Hamiltonian has extremely compact right eigenvectors, which can be sampled to high accuracy using the full configuration interaction quantum Monte Carlo (FCIQMC) method and its initiator approximation. Near-optimal correlators can be obtained using a simple projective equation, thus obviating the need for a numerical optimization of the correlator. The FCIQMC method, as a projective technique, is well suited for such non-Hermitian problems, and its stochastic nature can handle the three-body interactions exactly without undue increase in computational cost. The highly compact nature of the right eigenvectors means that the initiator approximation in FCIQMC is not severe and that large lattices can be simulated, well beyond the reach of the method applied to the original Hubbard Hamiltonian. Results are provided in lattice sizes up to 50 sites and compared to auxiliary-field QMC. New benchmark results are provided in the off-half-filling regime, with no severe sign problem being encountered. In addition, we show that methodology can be used to calculate excited states of the Hubbard model and lay the groundwork for the calculation of observables other than the energy.},
   arxiv={1811.03607},
   bibtex_show={true},
-  preview={compact.png}
+  preview={compact.png},
+  project_tc={true},
+  project_hubbard={true}
 }
 
 @article{Dobrautz2019,
@@ -74,7 +77,8 @@
   _pdf={094104_1_online.pdf},
   selected={true},
   preview={guga.png},
-  guga={true}
+  project_guga={true},
+  project_devel={true}
 }
 
 @article{Cohen2019,
@@ -96,7 +100,8 @@
   arxiv={1908.02882},
   bibtex_show={true},
   preview={simtrans.png},
-  _pdf={061101_1_online.pdf}
+  _pdf={061101_1_online.pdf},
+  project_tc={true}
 }
 
 
@@ -120,7 +125,8 @@
   _pdf={compression.pdf},
   bibtex_show={true},
   preview={compression.gif},
-  guga={true}
+  project_guga={true},
+  project_tm={true}
 }
 
 @article{Guther2020,
@@ -143,7 +149,9 @@
   abstract={We present NECI, a state-of-the-art implementation of the Full Configuration Interaction Quantum Monte Carlo (FCIQMC) algorithm, a method based on a stochastic application of the Hamiltonian matrix on a sparse sampling of the wave function. The program utilizes a very powerful parallelization and scales efficiently to more than 24 000 central processing unit cores. In this paper, we describe the core functionalities of NECI and its recent developments. This includes the capabilities to calculate ground and excited state energies, properties via the one- and two-body reduced density matrices, as well as spectral and Green’s functions for ab initio and model systems. A number of enhancements of the bare FCIQMC algorithm are available within NECI, allowing us to use a partially deterministic formulation of the algorithm, working in a spin-adapted basis or supporting transcorrelated Hamiltonians. NECI supports the FCIDUMP file format for integrals, supplying a convenient interface to numerous quantum chemistry programs, and it is licensed under GPL-3.0.},
   _pdf={034107_1_online.pdf},
   bibtex_show={true},
-  guga={true}
+  project_guga={true},
+  project_devel={true},
+  project_fciqmc={true}
 }
 
 
@@ -163,7 +171,7 @@
   abstract={After introducing the fundamental goals—solving the Schrödinger equation—and the associated problems of quantum chemistry, we describe the basics of multiconfigurational approaches to solve the latter. As an exact—or full configuration interaction (FCI)—solution, even in a finite basis set, comes with an exponential scaling cost, the importance of an efficient representation in either a Slater determinant or configuration state function basis is discussed. With the help of such an efficient representation it is possible to apply iterative techniques, like the Davidson method, to obtain the exact solution of the most important low-lying eigenstates of the Hamiltonian, describing a quantum chemical system. As the exponential scaling still restricts these direct approaches to rather modest system sizes, we discuss in depth the multi-configurational extension of the self-consistent field method (MCSCF), which captures the static correlation of a problem and serves as a starting point for many more elaborate techniques. In addition, we present the complete active space approach—and the generalized and restricted extensions thereof—, which allows an intuitive construction of the chemically important reference space and enables a much more compact description of the important degrees of freedom of a problem at hand. We explain the state-specific and state-averaged approaches to obtain excited states within the MCSCF method and conclude this chapter by presenting stochastic Monte-Carlo approaches to solve the FCI problem for unprecedented active space sizes.},
   _pdf={},
   bibtex_show={true},
-  guga={true}
+  project_guga={true}
 }
 
 @article{PhysRevB.104.235102,
@@ -187,7 +195,8 @@
   abstract={We investigate Nagaoka ferromagnetism in the two-dimensional Hubbard model with one hole using the spin-adapted [SU(2) conserving] full configuration interaction quantum Monte Carlo method. This methodology gives us access to the ground-state energies of all possible spin states S of finite Hubbard lattices, here obtained for lattices up to 26 sites for various interaction strengths (U). The critical interaction strength, Uc, at which the Nagaoka transition occurs is determined for each lattice and is found to be proportional to the lattice size for the larger lattices. Below Uc, the overall ground states are found to favour the minimal total spin (S=12), and no intermediate spin state is found to be the overall ground state on lattices larger than 16 sites. However, at Uc, the energies of all the spin states are found to be nearly degenerate, implying that large fluctuations in total spin can be expected in the vicinity of the Nagaoka transition.},
   _pdf={nagaoka.pdf},
   bibtex_show={true},
-  guga={true}
+  project_guga={true},
+  project_hubbard={true}
 }
 
 
@@ -211,7 +220,8 @@
   _pdf={resolution.pdf},
   bibtex_show={true},
   preview={resolution.gif},
-  guga={true}
+  project_guga={true},
+  project_tm={true}
 }
 
 @article{Dobrautz2021,
@@ -236,7 +246,9 @@
   selected={true},
   preview={casscf.png},
   bibtex_show={true},
-  guga={true}
+  project_guga={true},
+  project_devel={true},
+  project_tm={true}
 }
 
 @article{PhysRevB.105.195123,
@@ -261,7 +273,7 @@
   _pdf={combined.pdf},
   bibtex_show={true},
   preview={combined.png},
-  guga={true}
+  project_guga={true}
 }
 
 @article{Dobrautz2022,
@@ -283,7 +295,8 @@
   abstract={In this work, we investigate the performance of a recently proposed transcorrelated (TC) approach based on a single-parameter correlation factor [E. Giner, J. Chem. Phys. 154, 084119 (2021)] for systems involving more than two electrons. The benefit of such an approach relies on its simplicity as efficient numerical–analytical schemes can be set up to compute the two- and three-body integrals occurring in the effective TC Hamiltonian. To obtain accurate ground state energies within a given basis set, the present TC scheme is coupled to the recently proposed TC–full configuration interaction quantum Monte Carlo method [Cohen et al., J. Chem. Phys. 151, 061101 (2019)]. We report ground state total energies on the Li–Ne series, together with their first cations, computed with increasingly large basis sets and compare to more elaborate correlation factors involving electron–electron–nucleus coordinates. Numerical results on the Li–Ne ionization potentials show that the use of the single-parameter correlation factor brings on average only a slightly lower accuracy (1.2 mH) in a triple-zeta quality basis set with respect to a more sophisticated correlation factor. However, already using a quadruple-zeta quality basis set yields results within chemical accuracy to complete basis set limit results when using this novel single-parameter correlation factor. Calculations on the H2O, CH2, and FH molecules show that a similar precision can be obtained within a triple-zeta quality basis set for the atomization energies of molecular systems.},
   _pdf={234108_1_online.pdf},
   arxiv={2202.10443},
-  bibtex_show={true}
+  bibtex_show={true},
+  project_tc={true}
 }
 
 @article{Lolur2023,
@@ -307,7 +320,9 @@
   _pdf={rem.pdf},
   bibtex_show={true},
   selected={true},
-  preview={rem.png}
+  preview={rem.png},
+  project_quantum={true},
+  project_mitigation={true}
 }
 
 @article{PhysRevB.107.064405,
@@ -332,7 +347,8 @@
   _pdf={domains.pdf},
   bibtex_show={true},
   preview={domains.png},
-  project={guga}
+  project_guga={true},
+  project_hubbard={true}
 }
 
 @article{LiManni2023,
@@ -351,7 +367,8 @@
   abstract={The developments of the open-source OpenMolcas chemistry software environment since spring 2020 are described, with a focus on novel functionalities accessible in the stable branch of the package or via interfaces with other packages. These developments span a wide range of topics in computational chemistry and are presented in thematic sections: electronic structure theory, electronic spectroscopy simulations, analytic gradients and molecular structure optimizations, ab initio molecular dynamics, and other new features. This report offers an overview of the chemical phenomena and processes OpenMolcas can address, while showing that OpenMolcas is an attractive platform for state-of-the-art atomistic computer simulations.},
   _pdf={acs.jctc.3c00182.pdf},
   bibtex_show={true},
-  preview={molcas.jpeg}
+  preview={molcas.jpeg},
+  project_devel={true}
 }
 
 @article{Haupt2023,
@@ -372,7 +389,8 @@
   arxiv={2302.13683},  
   abstract={We investigate the optimization of flexible tailored real-space Jastrow factors for use in the transcorrelated (TC) method in combination with highly accurate quantum chemistry methods, such as initiator full configuration interaction quantum Monte Carlo (FCIQMC). Jastrow factors obtained by minimizing the variance of the TC reference energy are found to yield better, more consistent results than those obtained by minimizing the variational energy. We compute all-electron atomization energies for the challenging first-row molecules C2, CN, N2, and O2 and find that the TC method yields chemically accurate results using only the cc-pVTZ basis set, roughly matching the accuracy of non-TC calculations with the much larger cc-pV5Z basis set. We also investigate an approximation in which pure three-body excitations are neglected from the TC-FCIQMC dynamics, saving storage and computational costs, and show that it affects relative energies negligibly. Our results demonstrate that the combination of tailored real-space Jastrow factors with the multi-configurational TC-FCIQMC method provides a route to obtaining chemical accuracy using modest basis sets, obviating the need for basis-set extrapolation and composite techniques.},
   _pdf={224105_1_5.0147877.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  project_tc={true}
 }
 
 @article{PhysRevResearch.5.023174,
@@ -397,7 +415,10 @@
   abstract={Transcorrelated methods provide an efficient way of partially transferring the description of electronic correlations from the ground-state wave function directly into the underlying Hamiltonian. In particular, Dobrautz et al. [Phys. Rev. B 99, 075119 (2019)] have demonstrated that the use of momentum-space representation, combined with a nonunitary similarity transformation, results in a Hubbard Hamiltonian that possesses a significantly more “compact” ground-state wave function, dominated by a single Slater determinant. This compactness/single-reference character greatly facilitates electronic structure calculations. As a consequence, however, the Hamiltonian becomes non-Hermitian, posing problems for quantum algorithms based on the variational principle. We overcome these limitations with the Ansatz-based quantum imaginary-time evolution algorithm and apply the transcorrelated method in the context of digital quantum computing. We demonstrate that this approach enables up to four orders of magnitude more accurate and compact solutions in various instances of the Hubbard model at intermediate interaction strength (U/t=4), enabling the use of shallower quantum circuits for wave-function Ansätzes. In addition, we propose a more efficient implementation of the quantum imaginary-time evolution algorithm in quantum circuits that is tailored to non-Hermitian problems. To validate our approach, we perform hardware experiments on the ibmq_lima quantum computer. Our work paves the way for the use of exact transcorrelated methods for the simulations of ab initio systems on quantum computers.},
   _pdf={orders.pdf},
   bibtex_show={true},
-  preview={hubbard-tc.png}
+  preview={hubbard-tc.png},
+  project_quantum={true},
+  project_tc={true},
+  project_hubbard={true}
 }
 
 
@@ -411,7 +432,9 @@
   arxiv={2304.13882},
   abstract={     Variational quantum algorithms (VQAs) represent a promising approach to utilizing current quantum computing infrastructures. VQAs are based on a parameterized quantum circuit optimized in a closed loop via a classical algorithm. This hybrid approach reduces the quantum processing unit load but comes at the cost of a classical optimization that can feature a flat energy landscape. Existing optimization techniques, including either imaginary time-propagation, natural gradient, or momentum-based approaches, are promising candidates but place either a significant burden on the quantum device or suffer frequently from slow convergence. In this work, we propose the quantum Broyden adaptive natural gradient (qBang) approach, a novel optimizer that aims to distill the best aspects of existing approaches. By employing the Broyden approach to approximate updates in the Fisher information matrix and combining it with a momentum-based algorithm, qBang reduces quantum-resource requirements while performing better than more resource-demanding alternatives. Benchmarks for the barren plateau, quantum chemistry, and the max-cut problem demonstrate an overall stable performance with a clear improvement over existing techniques in the case of flat optimization landscapes. qBang introduces a new development strategy for gradient-based VQAs with a plethora of possible improvements. },
   _pdf={2304.13882.pdf},
-  bibtex_show={true}
+  bibtex_show={true},
+  project_devel={true},
+  project_quantum={true}
 }
 
 @article{2303.02007,
@@ -426,5 +449,7 @@
   _pdf={2303.02007.pdf},
   selected={true},
   bibtex_show={true},
-  preview={abinit-tc.png}
+  preview={abinit-tc.png},
+  project_tc={true},
+  project_quantum={true}
 }
