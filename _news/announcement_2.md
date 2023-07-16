@@ -1,25 +1,17 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2023-07-15 16:11:00-0400
+title: A longer announcement with details
+date: 2023-07-15
 inline: false
 related_posts: false
 ---
 
+Currently still in the process to setup my personal homepage
 
-A placeholder news post from the al-folio theme, to learn interacting with the new homepage... 
-
-Line separator:
-***
-
-#### list
+#### Initial todo list
 <ul>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
+    <li> Create a page about my research interests and projects </li>
+    <li> Setup a blog </li>
+    <li> Fill the entire homepage with more information </li>
 </ul>
 
-citation:
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
