@@ -7,7 +7,7 @@ subtitle: <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers Univer
 profile:
   align: right
   image: WDobrautz-4-comp.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Kemigården 4</p>
     <p>41258 Gothenburg, Sweden</p>
