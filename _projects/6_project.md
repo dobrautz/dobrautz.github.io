@@ -1,9 +1,10 @@
 ---
 layout: page
 title: project 6
-description: a project with no image
+description: a project that redirects to another webpage
 img:
 importance: 4
+redirect: https://unsplash.com
 category: fun
 ---
 
