@@ -2,7 +2,7 @@
 layout: page
 title: Method development
 description: My contributions to method and code development
-img: assets/img/molcas.jpg
+img: assets/img/molcas.jpeg
 importance: 3
 category: Research
 ---
