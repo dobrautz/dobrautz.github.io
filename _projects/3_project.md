@@ -3,7 +3,6 @@ layout: page
 title: Method development
 description: My contributions to method and code development
 img: assets/img/molcas.jpg
-redirect: https://unsplash.com
 importance: 3
 category: Research
 ---
