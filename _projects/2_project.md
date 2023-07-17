@@ -3,7 +3,7 @@ layout: page
 title: Spin symmetry 
 description: Implementation and exploitation of spin symmetry
 img: assets/img/casscf.png
-importance: 2
+importance: 4
 category: Research
 ---
 
