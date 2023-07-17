@@ -9,7 +9,13 @@ display_categories: [Research]
 horizontal: false
 ---
 
-My research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly-correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <br><br>
+After a graduate study of physics, with specialization in computational solid state physics, and a subsequent Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems, I am currently a Marie Skłodowska-Curie Postdoctoral Fellow at Chalmers University of Technology developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
+I have a strong knowledge of various modern theoretical and computational quantum chemistry and physics methods. 
+I acquired extensive algorithm design and development expertise as the main developer of the publicly available quantum Monte Carlo code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
+<br><br>
+
+The two main areas of my current research are (1) the development of novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computers as well as (2) the development of highly accurate quantum Monte Carlo methods for high-performance computing clusters to solve strongly correlated electron problems. <br><br>
+
 
 {% include figure.html path="assets/img/venn.png" title="Venn diagram" class="img-fluid rounded z-depth-1" %}
 
