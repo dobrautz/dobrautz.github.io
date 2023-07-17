@@ -3,7 +3,7 @@ layout: page
 title: Quantum Computing 
 description: My research in the area of novel quantum computing approaches to solve the electronic structure problem
 img: assets/img/quantum.png
-importance: 6
+importance: 1
 category: Research
 ---
 
