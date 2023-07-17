@@ -14,7 +14,8 @@ I have a strong knowledge of various modern theoretical and computational quantu
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
 <br>
 
-The two main areas of my current research are (1) the development of novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computers as well as (2) the development of highly accurate quantum Monte Carlo methods for high-performance computing clusters to solve strongly correlated electron problems. <br><br>
+My ongoing research focuses on three areas: (1) the development of highly accurate quantum Monte Carlo (QMC) methods for high-performance computing clusters to solve strongly correlated electron problems; (2) developing novel quantum computing (QC) algorithms to perform realistic electronic structure calculations on near-term intermediate-scale quantum (NISQ) devices; and (3) a seamless integration of a hybrid HPC+QC approach to tackle relevant solid state and electronic structure problems on NISQ devices. This will pave the way to simulate strongly correlated electron systems of high scientific and economic interest, where accurate approaches are needed to understand groundbreaking physical phenomena like high-temperature superconductivity, photosynthesis, or nitrogen fixation.
+<br><br>
 
 
 {% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center" %} 
