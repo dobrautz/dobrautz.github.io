@@ -17,11 +17,11 @@ I acquired extensive algorithm design and development expertise as the main deve
 The two main areas of my current research are (1) the development of novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computers as well as (2) the development of highly accurate quantum Monte Carlo methods for high-performance computing clusters to solve strongly correlated electron problems. <br><br>
 
 <figure>
-    <img src="assets/img/venn.png"
+    <img src="/assets/img/venn.png"
          alt="Venn diagram">
 </figure>
 
-{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="resize img-fluid rounded z-depth-1" %} 
+{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="resize" %} 
 
 <br>
 
