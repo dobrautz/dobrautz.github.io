@@ -9,6 +9,11 @@ display_categories: [Research]
 horizontal: false
 ---
 
+My research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly-correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <p><p>
+
+
+
+
 UNDER CONSTRUCTION!
 
 <!-- pages/projects.md -->
