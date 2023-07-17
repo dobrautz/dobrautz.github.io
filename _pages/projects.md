@@ -6,7 +6,7 @@ description: An overview of my past and current research projects
 nav: true
 nav_order: 2
 display_categories: [Research]
-horizontal: false
+horizontal: true
 ---
 
 After a graduate study of physics, with specialization in computational solid state physics, and a subsequent Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems, I am currently a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
