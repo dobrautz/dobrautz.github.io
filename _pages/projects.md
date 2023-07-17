@@ -21,7 +21,7 @@ The two main areas of my current research are (1) the development of novel quant
          alt="Venn diagram">
 </figure>
 
-{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="img-fluid rounded z-depth-1" %} 
+{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="resize, img-fluid rounded z-depth-1" %} 
 
 <br>
 
