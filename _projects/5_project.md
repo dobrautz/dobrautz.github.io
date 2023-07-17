@@ -3,7 +3,7 @@ layout: page
 title: The Hubbard model 
 description: Studies and approaches concerning the Hubbard model
 img: assets/img/hubbard-gutzwiller-igor.png
-importance: 7
+importance: 5
 category: Research
 ---
 
