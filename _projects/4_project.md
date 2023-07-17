@@ -3,7 +3,7 @@ layout: page
 title: Transcorrelation
 description: Development and application of the transcorrelated method
 img: assets/img/tc-sketch.png
-importance: 3
+importance: 4
 category: Research
 ---
 
