@@ -57,6 +57,11 @@ img {
   max-width: 90vw;
 }
 
+.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
