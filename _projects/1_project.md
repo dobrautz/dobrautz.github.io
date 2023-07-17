@@ -3,7 +3,7 @@ layout: page
 title: FCIQMC
 description: Development of the full configuration interaction quantum Monte Carlo method
 img: assets/img/neci.png
-importance: 1
+importance: 5
 category: Research
 ---
 
