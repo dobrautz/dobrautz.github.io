@@ -72,11 +72,25 @@ img {
   max-height:25%;
 }
 
-.center {
+.center_50 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.center_33 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.center_25 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 #wrap {
