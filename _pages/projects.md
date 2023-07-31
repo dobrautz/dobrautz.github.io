@@ -35,7 +35,7 @@ My ongoing research focuses on three areas: (1) the development of highly accura
 <br><br>
 
 
-{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center" %} 
+{% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center_33" %} 
 
 
 You can find more info about my past and current research interests and projects below!
