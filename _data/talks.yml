@@ -1,0 +1,86 @@
+
+- title: Invited Seminars
+  type: time_table
+  contents:
+    - title: Reducing necessary quantum hardware resources with explicitly correlated methods
+      year: 2023
+      description: at Algorithmiq Ltd., Helsinki, Finland
+    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+      year: 2022
+      description: at Max Planck Institute for Solid State Research, Stuttgart, Germany
+    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+      year: 2021
+      description: at IBM Research Zürich, Rüschlikon, Switzerland
+
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2022 
+      description: at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2020
+      description: at King's College, Department of Physics, London, UK
+    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+      year: 2019 
+      description: at Vienna University of Technology, Department of Physics, Vienna, Austria
+
+
+- title: Conference Talks
+  type: time_table
+  contents:
+    - title: 'Invited Talk: QVEST -- Quo Vadis Electronic Structure Theory, Ringberg Castle, Germany'
+      year: 2023
+      description: Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method.
+    - title: 'Invited Talk: Chalmers SmallTalks, Chalmers University, Gothenburg, Sweden'
+      year: 2023
+      description: 'Chemistry Meets Quantum Computing: A New Era of Simulation and Study'
+    - title: APS March Meeting, Las Vegas, USA
+      year: 2023
+      description: Accurate quantum chemistry calculations on near-term quantum computers enabled by the transcorrelated method
+    - title: E-MRS Fall Meeting (virtual), Warsaw, Poland
+      year: 2021 
+      description: Spin-pure stochastic CASSCF applied to iron-sulfur clusters
+    - title: Quantum Bio-Inorganic Chemistry Society, online
+      year: 2021
+      description: Spin-pure full configuration interaction Quantum Monte Carlo
+    - title: OpenMolcas Developers' eMeeting, Loughborough, UK (online)
+      year: 2021 
+      description: Spin-pure Stochastic-CASSCF applied to iron-sulfur clusters
+    - title: OpenMolcas Developers' eMeeting, Stuttgart, Germany (online)
+      year: 2020
+      description: Spin-pure Stochastic-CASSCF in OpenMolcas via	spin-adapted FCIQMC
+    - title: NECI Developers Meeting, Stuttgart, Germany
+      year: 2019 
+      description: Application of the Transcorrelated Approach to the 2-D Hubbard Model
+    - title: NECI Developers Meeting, Stuttgart, Germany
+      year: 2018
+      description: Spin Symmetry and the Graphical Unitary Group Approach
+    - title: DPG Spring Meeting, Dresden, Germany
+      year: 2017 
+      description: SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+        
+- title: Conference Posters
+  type: time_table
+  contents:
+    - title: APS March Meeting, Las Vegas, USA
+      year: 2023
+      description: 'Reference-State Error Mitigation: A Strategy for High Accuracy Quantum Computation of Chemistry'
+    - title:  A nano focus on quantum materials, Chalmers University of Technology, Gothenburg, Sweden
+      year: 2023
+      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+    - title: Science and Technology Day, Chalmers University of Technology, Gothenburg, Sweden
+      year: 2022
+      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+    - title: Wallenberg Centre for Quantum Technology Review Meeting, Gothenburg, Sweden
+      year: 2022 
+      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+    - title: Congress of the International Society for Theoretical Chemical Physics, Tromsø, Norway
+      year: 2019
+      description: The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+    - title: Congress of the International Society for Theoretical Chemical Physics, Tromsø, Norway
+      year: 2019 
+      description: SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+    - title: International Congress of Quantum Chemistry, Menton, France
+      year: 2018
+      description: The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+    - title: DPG Spring meeting, Berlin, Germany
+      year: 2015 
+      description: Efficient Implementation of SU(2) Symmetry using the Unitary Group in FCIQMC        
