@@ -103,7 +103,9 @@
   contents:
     - title: Reducing necessary quantum hardware resources with explicitly correlated methods
       year: 2023
-      description: at Algorithmiq Ltd., Helsinki, Finland
+      description: 
+        - at Algorithmiq Ltd., Helsinki, Finland
+        - Slides
     - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
       year: 2022
       description: at Max Planck Institute for Solid State Research, Stuttgart, Germany
@@ -112,7 +114,7 @@
       description: at IBM Research Zürich, Rüschlikon, Switzerland
 
     - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
-      year: 2022 
+      year: 2020 
       description: at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
     - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
       year: 2020
