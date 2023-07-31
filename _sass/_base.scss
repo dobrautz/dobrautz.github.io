@@ -57,9 +57,19 @@ img {
   max-width: 90vw;
 }
 
-.resize {
+.resize_50 {
   max-width:50%;
   max-height:50%;
+}
+
+.resize_33 {
+  max-width:33%;
+  max-height:33%;
+}
+
+.resize_25 {
+  max-width:25%;
+  max-height:25%;
 }
 
 .center {
@@ -67,6 +77,25 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#wrap {
+    margin: 3em 8em;
+}
+.left {
+    float: left;
+    margin-right: 1.5em;
+}
+.right {
+    float: right;
+    margin-left: 1em;
+}
+p {
+    margin-bottom: 2.5em;
+    overflow: hidden; /* this is what keep the <p> from wrapping */
+}
+p:last-child {
+    overflow: visible; /* this is an example of the browser default */
 }
 
 blockquote {
