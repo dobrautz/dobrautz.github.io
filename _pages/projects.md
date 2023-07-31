@@ -8,6 +8,20 @@ nav_order: 2
 display_categories: [Research]
 horizontal: true
 ---
+
+<h3>Motivation</h3> 
+
+<p>
+	Electronic structure theory is concerned with the solution of the Schödinger equation to obtain ground and excited states
+	energies, wavefunctions, and properties of quantum mechanical systems of interest.
+	A solution of the correlated motion of electrons would allow a description 
+	of many groundbreaking yet unsolved physical and chemical phenomena, like unconventional high-Tc
+	superconductivity, photosynthesis, or nitrogen fixation.
+	With an efficient method to solve this problem, we could predict and design the chemical and physical properties of novel 
+	quantum materials and molecules. 
+</p>
+
+
 <h3>Background</h3> 
 
 After a graduate study of physics, with specialization in computational solid state physics, and a subsequent Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems, I am currently a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
