@@ -57,6 +57,11 @@ img {
   max-width: 90vw;
 }
 
+.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
 .resize_50 {
   max-width:50%;
   max-height:50%;
@@ -72,6 +77,12 @@ img {
   max-height:25%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .center_50 {
   display: block;
   margin-left: auto;
