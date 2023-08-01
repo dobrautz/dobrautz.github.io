@@ -12,7 +12,7 @@ The title of my Ph.D. thesis was <a href='http://dx.doi.org/10.18419/opus-10593'
 </p>
 
 <p>
-The open-source repository of our FCIQMC code base NECI can be found here: <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a>
+The open-source repository of our FCIQMC code base NECI can be found <a href='https://github.com/ghb24/NECI_STABLE'>here</a>.
 </p>
 
 Related Publications: 
