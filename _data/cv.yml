@@ -108,20 +108,29 @@
         - <a href='../assets/pdf/algorithmiq-talk-2023.pdf'>Slides</a>
     - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
       year: 2022
-      description: at Max Planck Institute for Solid State Research, Stuttgart, Germany
+      description: 
+        - at Max Planck Institute for Solid State Research, Stuttgart, Germany        
     - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
       year: 2021
-      description: at IBM Research Zürich, Rüschlikon, Switzerland
+      description: 
+        - at IBM Research Zürich, Rüschlikon, Switzerland
+        - <a href='../assets/pdf/talk_ibm.pdf'>Slides</a>
 
     - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
       year: 2020 
-      description: at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
+      description: 
+        - at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
+        - <a href='../assets/pdf/talk_manu.pdf'>Slides</a>
     - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
       year: 2020
-      description: at King's College, Department of Physics, London, UK
+      description: 
+        - at King's College, Department of Physics, London, UK
+        - <a href='../assets/pdf/talk_at_george.pdf'>Slides</a>
     - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
       year: 2019 
-      description: at Vienna University of Technology, Department of Physics, Vienna, Austria
+      description: 
+        - at Vienna University of Technology, Department of Physics, Vienna, Austria
+        - <a href='../assets/pdf/talk_andreas_st.pdf'>Slides</a>
 
 
 - title: Conference Talks
@@ -132,59 +141,105 @@
       description: Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method.
     - title: 'Invited Talk: Chalmers SmallTalks, Chalmers University, Gothenburg, Sweden'
       year: 2023
-      description: 'Chemistry Meets Quantum Computing: A New Era of Simulation and Study'
+      description: 
+        - 'Chemistry Meets Quantum Computing: A New Era of Simulation and Study'
+        - <a href='../assets/pdf/small_talks.pdf'>Slides</a>
     - title: APS March Meeting, Las Vegas, USA
       year: 2023
-      description: Accurate quantum chemistry calculations on near-term quantum computers enabled by the transcorrelated method
+      description: 
+        - Accurate quantum chemistry calculations on near-term quantum computers enabled by the transcorrelated method
+        - <a href='../assets/pdf/aps-talk-2023.pdf'>Slides</a>
+        
     - title: E-MRS Fall Meeting (virtual), Warsaw, Poland
       year: 2021 
-      description: Spin-pure stochastic CASSCF applied to iron-sulfur clusters
+      description: 
+        - Spin-pure stochastic CASSCF applied to iron-sulfur clusters
+        - <a href='../assets/pdf/EMRS_Talk_Werner_Dobrautz.pdf'>Slides</a>
+        
     - title: Quantum Bio-Inorganic Chemistry Society, online
       year: 2021
       description: Spin-pure full configuration interaction Quantum Monte Carlo
+      
     - title: OpenMolcas Developers' eMeeting, Loughborough, UK (online)
       year: 2021 
-      description: Spin-pure Stochastic-CASSCF applied to iron-sulfur clusters
+      description: 
+        - Spin-pure Stochastic-CASSCF applied to iron-sulfur clusters
+        - <a href='../assets/pdf/OpenMolcas2021.pdf'>Slides</a>
+      
     - title: OpenMolcas Developers' eMeeting, Stuttgart, Germany (online)
       year: 2020
-      description: Spin-pure Stochastic-CASSCF in OpenMolcas via	spin-adapted FCIQMC
+      description: 
+        - Spin-pure Stochastic-CASSCF in OpenMolcas via	spin-adapted FCIQMC
+        - <a href='../assets/pdf/molcas_talk.pdf'>Slides</a>
+        
     - title: NECI Developers Meeting, Stuttgart, Germany
       year: 2019 
-      description: Application of the Transcorrelated Approach to the 2-D Hubbard Model
+      description: 
+        - Application of the Transcorrelated Approach to the 2-D Hubbard Model
+        - <a href='../assets/pdf/neci_dev_talk_2019_TC.pdf'>Slides</a>
+      
     - title: NECI Developers Meeting, Stuttgart, Germany
       year: 2018
-      description: Spin Symmetry and the Graphical Unitary Group Approach
+      description: 
+        - Spin Symmetry and the Graphical Unitary Group Approach
+        - <a href='../assets/pdf/neci_dev_meeting_talk_guga.pdf'>Slides</a>
+
+      
     - title: DPG Spring Meeting, Dresden, Germany
       year: 2017 
-      description: SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+      description: 
+        - SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+        - <a href='../assets/pdf/dpg_presentation.pdf'>Slides</a>
         
 - title: Conference Posters
   type: time_table
   contents:
     - title: APS March Meeting, Las Vegas, USA
       year: 2023
-      description: 'Reference-State Error Mitigation: A Strategy for High Accuracy Quantum Computation of Chemistry'
+      description: 
+        - 'Reference-State Error Mitigation: A Strategy for High Accuracy Quantum Computation of Chemistry'
+        - <a href='../assets/pdf/poster_aps.pdf'>PDF</a>
+        
     - title:  A nano focus on quantum materials, Chalmers University of Technology, Gothenburg, Sweden
       year: 2023
-      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+      description: 
+        - Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+        - <a href='../assets/pdf/nano_focus_poster.pdf'>PDF</a>
+        
     - title: Science and Technology Day, Chalmers University of Technology, Gothenburg, Sweden
       year: 2022
-      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+      description: 
+        - Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+        - <a href='../assets/pdf/poster_chalmers_science.pdf'>PDF</a>
+        
     - title: Wallenberg Centre for Quantum Technology Review Meeting, Gothenburg, Sweden
       year: 2022 
-      description: Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+      description: 
+        - Enabling Accurate Quantum Chemistry Calculations on Near-Term Quantum Devices
+        - <a href='../assets/pdf/poster_chalmers_science.pdf'>PDF</a>
+      
     - title: Congress of the International Society for Theoretical Chemical Physics, Tromsø, Norway
       year: 2019
-      description: The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+      description: 
+        - The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+        - <a href='../assets/pdf/sim_transform_poster_sab_hq.pdf'>PDF</a>
+        
     - title: Congress of the International Society for Theoretical Chemical Physics, Tromsø, Norway
       year: 2019 
-      description: SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+      description: 
+        - SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
+        
     - title: International Congress of Quantum Chemistry, Menton, France
       year: 2018
-      description: The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+      description: 
+        - The Transcorrelated Method in the Two-Dimensional repulsive Hubbard Model
+        - <a href='../assets/pdf/sim_transform_poster_sab_hq.pdf'>PDF</a>
+
     - title: DPG Spring meeting, Berlin, Germany
       year: 2015 
-      description: Efficient Implementation of SU(2) Symmetry using the Unitary Group in FCIQMC        
+      description: 
+        - Efficient Implementation of SU(2) Symmetry using the Unitary Group in FCIQMC  
+        - <a href='../assets/pdf/DPG2015Poster.pdf'>PDF</a>
 
 - title: Academic Interests
   type: nested_list
