@@ -105,7 +105,7 @@
       year: 2023
       description: 
         - at Algorithmiq Ltd., Helsinki, Finland
-        - <a href='assets/pdf/algorithmiq-talk-2023.pdf'>Slides</a>
+        - <a href={{'assets/pdf/algorithmiq-talk-2023.pdf' | relative_url}}>Slides</a>
     - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
       year: 2022
       description: at Max Planck Institute for Solid State Research, Stuttgart, Germany
