@@ -33,6 +33,8 @@ The open-source repository of our FCIQMC code base NECI can be found <a href='ht
 {% include figure.html path="assets/img/Reduced-Movie.gif" title="Venn diagram" class="center" %} 
 <div class="caption">
 Example of an FCIQMC simulation for a model of streched N2 from <a href='http://www-alavi.ch.cam.ac.uk/'>http://www-alavi.ch.cam.ac.uk/</a>
+</div>
+
 
 <br>
 Related Publications: 
