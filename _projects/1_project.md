@@ -34,6 +34,7 @@ The open-source repository of our FCIQMC code base NECI can be found <a href='ht
 <div class="caption">
 Example of an FCIQMC simulation for a model of streched N2 from <a href='http://www-alavi.ch.cam.ac.uk/'>http://www-alavi.ch.cam.ac.uk/</a>
 
+<br>
 Related Publications: 
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_fciqmc=true]* %}
