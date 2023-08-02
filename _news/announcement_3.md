@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 'Frontiers of near-term quantum computing' workshop
