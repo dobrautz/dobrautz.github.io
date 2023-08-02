@@ -10,7 +10,6 @@ horizontal: true
 ---
 
 <h3>Motivation</h3> 
-<img src="../assets/img/schrodinger.png" align="right" />
 <p>
 	Electronic structure theory is concerned with the solution of the Schödinger equation to obtain ground and excited states
 	energies, wavefunctions, and properties of quantum mechanical systems of interest.
@@ -20,6 +19,8 @@ horizontal: true
 	With an efficient method to solve this problem, we could predict and design the chemical and physical properties of novel 
 	quantum materials and molecules. 
 </p>
+
+{% include figure.html path="assets/img/schrodinger.png" title="Electronic Structure Problem" class="center" %} 
 
 
 <h3>Background</h3> 
