@@ -33,19 +33,6 @@ I acquired extensive algorithm design and development expertise as the main deve
 <br>
 
 
-<!-- <div class="row">	-->
-<!--    <div class="col-sm mt-3 mt-md-0">	-->
-<!--        {% include figure.html path="assets/img/mpi2.png" title="example image" class="img-fluid rounded z-depth-1" %}	-->
-<!--    </div>	-->
-<!--    <div class="col-sm mt-3 mt-md-0">	-->
-<!--        {% include figure.html path="assets/img/chalmers-logo.png" title="example image" class="img-fluid rounded z-depth-1" %} -->
-<!--    </div>	-->
-<!--    <div class="col-sm mt-3 mt-md-0">	-->
-<!--        {% include figure.html path="assets/img/logo_marie-curie.jpeg" title="example image" class="img-fluid rounded z-depth-1" %} -->
-<!--    </div>	-->
-<!-- </div>	-->
-
-
 <h3>Research</h3>
 
 My ongoing research focuses on three areas: (1) the development of highly accurate quantum Monte Carlo (QMC) methods for high-performance computing clusters to solve strongly correlated electron problems; (2) developing novel quantum computing (QC) algorithms to perform realistic electronic structure calculations on near-term intermediate-scale quantum (NISQ) devices; and (3) a seamless integration of a hybrid HPC+QC approach to tackle relevant solid state and electronic structure problems on NISQ devices. This will pave the way to simulate strongly correlated electron systems of high scientific and economic interest, where accurate approaches are needed to understand groundbreaking physical phenomena like high-temperature superconductivity, photosynthesis, or nitrogen fixation.
