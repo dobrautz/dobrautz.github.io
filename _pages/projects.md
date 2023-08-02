@@ -25,10 +25,24 @@ horizontal: true
 
 <h3>Background</h3> 
 
-After a graduate study of physics, with specialization in computational solid state physics, and a subsequent Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems, I am currently a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
+I studied physics, specializing in computational solid-state physics, at Graz University of Technology Austria.
+Subsequently, I obtained my Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems at the Max Planck Insitute of Solid State Research and the University of Stuttgart. 
+Currently, I am a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
 I have a strong knowledge of various modern theoretical and computational quantum chemistry and physics methods. 
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
 <br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mpi2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/chalmers-logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/logo_marie-curie.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <h3>Research</h3>
 
