@@ -32,17 +32,19 @@ I have a strong knowledge of various modern theoretical and computational quantu
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
 <br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mpi2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/chalmers-logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/logo_marie-curie.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
+<!-- <div class="row">	-->
+<!--    <div class="col-sm mt-3 mt-md-0">	-->
+<!--        {% include figure.html path="assets/img/mpi2.png" title="example image" class="img-fluid rounded z-depth-1" %}	-->
+<!--    </div>	-->
+<!--    <div class="col-sm mt-3 mt-md-0">	-->
+<!--        {% include figure.html path="assets/img/chalmers-logo.png" title="example image" class="img-fluid rounded z-depth-1" %} -->
+<!--    </div>	-->
+<!--    <div class="col-sm mt-3 mt-md-0">	-->
+<!--        {% include figure.html path="assets/img/logo_marie-curie.jpeg" title="example image" class="img-fluid rounded z-depth-1" %} -->
+<!--    </div>	-->
+<!-- </div>	-->
+
 
 <h3>Research</h3>
 

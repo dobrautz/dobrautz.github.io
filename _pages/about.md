@@ -8,9 +8,7 @@ profile:
   align: right
   image: WDobrautz-4-comp.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Kemigården 4</p>
-    <p>41258 Gothenburg, Sweden</p>
+  address: 
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

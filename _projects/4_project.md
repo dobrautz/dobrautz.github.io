@@ -12,7 +12,7 @@ category: Research
 <p>
 	Accurate methods are mandatory to 
 	correctly describe strongly correlated systems, but have an unfavorable computational scaling with 
-	the size of the system, see Fig.~\ref{fig:cbs}.
+	the size of the system.
 	An exact calculation called full configuration interaction (FCI), 
 	even scales exponentially with the system size.
 	In addition to this hierarchy of methods, there is a hierarchy of 
