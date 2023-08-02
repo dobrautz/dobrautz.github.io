@@ -26,7 +26,7 @@ horizontal: true
 <h3>Background</h3> 
 
 I studied physics, specializing in computational solid-state physics, at Graz University of Technology Austria.
-Subsequently, I obtained my Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems at the Max Planck Insitute of Solid State Research and the University of Stuttgart. 
+Subsequently, I obtained my Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems at the Max Planck Institute of Solid State Research and the University of Stuttgart. 
 Currently, I am a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
 I have a strong knowledge of various modern theoretical and computational quantum chemistry and physics methods. 
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
