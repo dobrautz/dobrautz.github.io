@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Frontiers of near-term quantum computing workshop
+title: "Frontiers of near-term quantum computing" workshop
 date: 2023-08-02 
 inline: false
 related_posts: false
