@@ -32,6 +32,7 @@ I have a strong knowledge of various modern theoretical and computational quantu
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
 <br>
 
+{% include figure.html path="assets/img/cv_map.png" title="CV Map" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <h3>Research</h3>
 
