@@ -2,7 +2,7 @@
 layout: page
 title: Transcorrelation
 description: Development and application of the transcorrelated method
-img: assets/img/tc-sketch.png
+img: assets/img/tc_motivation_5.png
 importance: 2
 category: Research
 ---
@@ -27,7 +27,7 @@ category: Research
 
 </p>
 
-{% include figure.html path="assets/img/tc-sketch.png" title="TC Motivation" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/tc_motivation_5.png" title="TC Motivation" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 <p>
