@@ -16,6 +16,8 @@ Due to a non-straight-forward implementation and accompanying increased computat
 
 </p>
 
+{% include figure.html path="assets/img/hilbert_space_reduc.png" title="Block diagonalization" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+
 <p>
     In addition to the abovementioned Hilbert space size reduction and conservation of the total spin S, solving for the eigenstates of the Hamiltonian in a spin-eigenbasis allows targeting distinct—even (near-)degenerate—spin eigenstates, which allows the calculation of spin gaps between states inaccessible otherwise, and facilitates a correct physical interpretation of calculations and description of chemical processes governed by the intricate interplay between them. Moreover, by working in a specific spin sector, convergence of projective techniques that rely on the repeated application of a propagator to an evolving wavefunction is greatly improved, especially where there are near spin-degeneracies in the exact spectrum.
 </p>
@@ -30,6 +32,8 @@ Furthermore, we establish the ordering of the scandium anion bound states, which
 		properties and spin interactions of transition-metal complexes</a> in the form of iron-sulfur cluster, <a href='https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.235102'>Nagaoka ferromagnetism in the hole-doped Hubbard model</a> and a <a href='https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.195123'>combination of the unitary and symmetric group approach for low-dimensional spin systems</a>, possibly extending our method to allow the study of spin-liquid phases.
     
 </p>
+
+{% include figure.html path="assets/img/casscf.png" title="Block diagonalization" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
 Related Publications: 
 <div class="publications">
