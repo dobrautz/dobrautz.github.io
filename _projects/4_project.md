@@ -2,7 +2,7 @@
 layout: page
 title: Transcorrelation
 description: Development and application of the transcorrelated method
-img: assets/img/tc-sketch.png
+img: assets/img/tc_motivation_5.png
 importance: 2
 category: Research
 ---
@@ -27,6 +27,9 @@ category: Research
 
 </p>
 
+{% include figure.html path="assets/img/tc_motivation_5.png" title="TC Motivation" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+
 <p>
     Explicitly correlated methods[<a href="https://link.springer.com/article/10.1007/BF00527669">2</a>] can reduce the need for large basis set expansions by  directly incorporating the electronic cusp condition
 	in the wavefunction Ansatz. 
@@ -38,6 +41,8 @@ category: Research
 	Thus, most computational methods need to be modified to deal with these intricacies, which I was able to do during my Ph.D. for the full configuration interaction QMC (FCIQMC) method and on quantum computing hardware during my postdoc. 
  
 </p>
+
+
 
 Related Publications: 
 <div class="publications">

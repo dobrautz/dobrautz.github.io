@@ -15,6 +15,10 @@ I am a main developer of the full configuration interaction quantum Monte Carlo 
     
 </p>
 
+{% include figure.html path="assets/img/vision.png" title="Vision" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+
+
 Related Publications: 
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_devel=true]* %}
