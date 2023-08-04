@@ -11,7 +11,7 @@ category: Research
 
 <p>
 My contributions to the algorithm and method development in the fields of computational physics, quantum chemistry and quantum computing approaches. <br>
-I am a main developer of the full configuration interaction quantum Monte Carlo code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> and contributor to the multi-purpose quantum chemistry software package <a href='https://gitlab.com/Molcas/OpenMolcas'>OpenMolcas</a>.
+I am a main developer of the full configuration interaction quantum Monte Carlo code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> and contributor to the multi-purpose quantum chemistry software package <a href='https://gitlab.com/Molcas/OpenMolcas'>OpenMolcas</a> as well as the open-source toolkit for quantum computing <a href='https://qiskit.org/'>Qiskit</a>. 
     
 </p>
 
