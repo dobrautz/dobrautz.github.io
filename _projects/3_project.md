@@ -18,6 +18,7 @@ I am a main developer of the full configuration interaction quantum Monte Carlo 
 {% include figure.html path="assets/img/vision.png" title="Vision" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
+<br>
 
 <h4>Related Publications: </h4>
 <div class="publications">
