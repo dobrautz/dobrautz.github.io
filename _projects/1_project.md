@@ -37,7 +37,8 @@ Example of an FCIQMC simulation for a model of streched N2 from <a href='http://
 
 
 <br>
-Related Publications: 
+
+<h4>Related Publications: </h4>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_fciqmc=true]* %}
 </div>

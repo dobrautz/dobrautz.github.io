@@ -4,7 +4,7 @@ title: The Hubbard model
 description: Studies and approaches concerning the Hubbard model
 img: assets/img/hubbard-gutzwiller-igor.png
 importance: 6
-category: Research
+category: Hide
 ---
 
 ! UNDER CONSTRUCTION ! <br>
