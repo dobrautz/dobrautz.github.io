@@ -11,8 +11,8 @@ category: Research
 
 {% include figure.html path="assets/img/hybrid_quantum_classical.png" title="Hybrid Quantum Classical" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-
-Related Publications: 
+<br>
+<h4>Related Publications: </h4>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_quantum=true]* %}
 </div>
