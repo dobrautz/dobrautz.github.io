@@ -39,6 +39,15 @@ I applied the above methodology to obtain results not otherwise attainable with 
 Furthermore, we establish the ordering of the scandium anion bound states, which has until now not been experimentally determined. 
 </p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hubbard-gutzwiller-igor.png" title="Hubbard Gutzwiller" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/transcorrelation_forumla.png" title="Transcorr. Formula" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <p>
 In the second part, I investigated a methodology to explicitly incorporate electron correlation into the initial Ansatz of the ground state wavefunction. 
 Such an Ansatz induces a compact description of the wave function, which ameliorates the sampling of the configuration space of a system with FCIQMC.
@@ -47,7 +56,7 @@ This transformation generates novel three-body interactions, tractable due to th
 The latter fact allows the application of FCIQMC to larger lattice sizes well beyond the reach of the method applied to the original Hubbard Hamiltonian.  
 </p>
 
-Related Publications: 
+<h3>Related Publications: </h3>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_thesis=true]* %}
 </div>
