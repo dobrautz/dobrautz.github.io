@@ -44,9 +44,9 @@ Furthermore, we establish the ordering of the scandium anion bound states, which
 
 {% include figure.html path="assets/img/magnetic_coupling_2.png" title="Magnetic Coupling 2" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
+<br>
 
-
-<h3>Related Publications:</h3>
+<h4>Related Publications:</h4>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_guga=true]* %}
 </div>
