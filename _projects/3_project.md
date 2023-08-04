@@ -19,7 +19,7 @@ I am a main developer of the full configuration interaction quantum Monte Carlo 
 
 
 
-<h3>Related Publications: </h3>
+<h4>Related Publications: </h4>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_devel=true]* %}
 </div>
