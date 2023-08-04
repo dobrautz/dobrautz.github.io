@@ -46,7 +46,7 @@ Furthermore, we establish the ordering of the scandium anion bound states, which
 
 
 
-Related Publications: 
+<h3>Related Publications:</h3>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_guga=true]* %}
 </div>
