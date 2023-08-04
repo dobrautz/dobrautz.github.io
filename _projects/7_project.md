@@ -11,10 +11,10 @@ category: Research
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/PXL_20220420_122357042.jpg" title="Chalmers chip image" class="resize img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/PXL_20220420_122357042.jpg" title="Chalmers chip image" class="center img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/PXL_20220420_122708445.jpg" title="Chalmers fridge" class="resize img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/PXL_20220420_122708445.jpg" title="Chalmers fridge" class="center img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
