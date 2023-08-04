@@ -42,9 +42,18 @@ category: Research
  
 </p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/berrylium.png" title="Beryllium" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/lih_results.png" title="LiH" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
-Related Publications: 
+
+<h3>Related Publications: </h3>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_tc=true]* %}
 </div>
