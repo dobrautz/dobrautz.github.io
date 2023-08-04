@@ -9,10 +9,11 @@ category: Research
 
 ! UNDER CONSTRUCTION ! <br>
 
-{% include figure.html path="assets/img/hybrid_quantum_classical.png" title="Hybrid Quantum Classical" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/hybrid_quantum_classical.png" title="Hybrid Quantum Classical" class="center-75 img-fluid rounded z-depth-1" zoomable=true %}
 
 <br>
 <h4>Related Publications: </h4>
+
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_quantum=true]* %}
 </div>
