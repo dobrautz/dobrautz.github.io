@@ -52,8 +52,8 @@ category: Research
 </div>
 
 
-
-<h3>Related Publications: </h3>
+<br>
+<h4>Related Publications: </h4>
 <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[project_tc=true]* %}
 </div>
