@@ -54,6 +54,17 @@ restricted circuit depth due to qubit/gate noise and decoherence.
 
 </p>
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/berrylium.png" title="Beryllium" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/lih_results.png" title="LiH" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 <br>
 <h4>Related Publications: </h4>
 
