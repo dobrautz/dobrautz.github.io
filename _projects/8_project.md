@@ -21,6 +21,15 @@ Although system-agnostic (black-box-like) and numerically exact, its effectivene
 In my thesis, I developed two -- conceptually distinct --  approaches to extend the applicability of FCIQMC towards larger and more <b>strongly correlated</b> systems.
 </p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/guga_1.png" title="GUGA example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/guga_2.png" title="GUGA example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <p>
 In the first part, I investigated a spin-adapted formulation of the FCIQMC algorithm based on the <b>Unitary Group Approach</b>. 
 Exploiting the inherent symmetries of the nonrelativistic molecular Hamiltonian dramatically reduces the effective Hilbert space size of the problem. 
