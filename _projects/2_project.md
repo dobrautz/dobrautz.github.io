@@ -33,16 +33,18 @@ Furthermore, we establish the ordering of the scandium anion bound states, which
     
 </p>
 
-{% include figure.html path="assets/img/casscf.png" title="CASSCF" class="center img-fluid rounded z-depth-1" zoomable=true %} 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/casscf.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/casscf.png" title="CASSCF" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/magnetic_coupling" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/magnetic_coupling" title="Magnetic coupling" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+{% include figure.html path="assets/img/magnetic_coupling_2.png" title="Magnetic Coupling 2" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+
 
 Related Publications: 
 <div class="publications">
