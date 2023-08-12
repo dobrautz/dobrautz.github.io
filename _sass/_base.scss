@@ -62,17 +62,17 @@ img {
   max-height:50%;
 }
 
-.resize_50 {
+.resize-50 {
   max-width:50%;
   max-height:50%;
 }
 
-.resize_33 {
+.resize-33 {
   max-width:33%;
   max-height:33%;
 }
 
-.resize_25 {
+.resize-25 {
   max-width:25%;
   max-height:25%;
 }
@@ -83,25 +83,32 @@ img {
   margin-right: auto;
   width: 50%;
 }
-.center_50 {
+.center-50 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-.center_33 {
+.center-33 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 33%;
 }
 
-.center_25 {
+.center-25 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+
+.center-75 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 #wrap {
