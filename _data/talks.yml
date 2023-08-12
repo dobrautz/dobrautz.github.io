@@ -37,6 +37,9 @@
 - title: Conference Talks
   type: time_table
   contents:
+    - title: 'Invited Talk: QED-C Quantum talent showcase, online'
+      year: 2023
+      description: Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method.
     - title: 'Invited Talk: QVEST -- Quo Vadis Electronic Structure Theory, Ringberg Castle, Germany'
       year: 2023
       description: Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method.
