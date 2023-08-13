@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a>
+subtitle: Marie Skłodowska-Curie PostDoc Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a>
 
 profile:
   align: right
