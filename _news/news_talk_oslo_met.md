@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Talk at QVEST - Quo Vadis Electronic Structure Theory?'
+title: 'Lecture at OsloMet's Autumn School on Quantum Computing'
 date: 2023-11-10
 inline: false
 related_posts: false
 ---
-I had the opportunity to lecture about hybrid quantum algorithms applied to quantum chemistry problems at <a href='https://www.oslomet.no/'>OsloMet</a>– Oslo Metropolitan University's <a href='https://uni.oslomet.no/quantum/upcoming-school-on-quantum-computing/'>Autumn School on Quantum Computing</a>, which took place at a lovely venue close to the legendary Holmenkollen ski-jumping arena in Oslo. 
+I had the opportunity to lecture about **hybrid quantum algorithms applied to quantum chemistry problems** at <a href='https://www.oslomet.no/'>OsloMet</a>– Oslo Metropolitan University's <a href='https://uni.oslomet.no/quantum/upcoming-school-on-quantum-computing/'>Autumn School on Quantum Computing</a>, which took place at a lovely venue close to the legendary Holmenkollen ski-jumping arena in Oslo. 
 
 There have been very interesting lectures on Quantum Channels and Noise Models by Alexander Müller-Hermes and Quantum Reservoir Computing by Rodrigo Martines Peña. Looking forward to the remaining lectures! 
 
