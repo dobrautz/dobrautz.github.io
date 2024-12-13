@@ -8,6 +8,6 @@ related_posts: false
 
 There was a news article on our <a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c00807/">reference-state error mitigation paper</a> on the <a href='https://www.chalmers.se/en/current/news/k-swedish-quantum-computer-applied-to-chemistry-for-the-first-time/'>Chalmers University website</a>
 
-
+{% include figure.html path="assets/img/rem-toc.gif" title="Paper TOC graphic" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 

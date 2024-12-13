@@ -38,3 +38,10 @@ And Ji Chen about his deep learning approach to periodic systems.
 I'm looking forward to the next two days of talks!
 
 {% include figure.html path="assets/img/ringberg1.jpg" title="Speaker list Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
+{% include figure.html path="assets/img/ringberg2.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/ringberg3.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/ringberg4.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/ringberg5.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/ringberg6.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/ringberg7.jpg" title="Speakers Ringberg" class="img-fluid rounded z-depth-1" zoomable=true %} 

@@ -12,6 +12,8 @@ In a collaboration between the Max Planck Insitute of Solid State Research, Chal
 
 Check it out <a href='https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.023174'>here</a>
 
+{% include figure.html path="assets/img/orders-fig1.png" title="Paper TOC graphic" class="img-fluid rounded z-depth-1" zoomable=true %} 
+
 
 #quantumcomputing #quantumtechnology #quantumphysics 
 
