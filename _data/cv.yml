@@ -80,7 +80,8 @@
   type: nested_list
   contents:
     - title: Co-organizer of <a href="https://www.chalmers.se/en/conference/frontiers-of-near-term-quantum-computing">'Frontiers of near-term quantum computing workshop' </a> in Gothenburg, Sweden. 
-    - title: Reviewer for <em>ACS Omega, Molecular Physics</em> and the <em>International Journal of Quantum Chemistry</em>
+    - title: Reviewer for <em>ACS Omega, Molecular Physics, Physical Chemistry Chemical Physics, The Journal of Physical Chemistry, Quantum, The Journal of Chemical Physics, npj Quantum Information, Physical Review A, ACS Physical Chemistry Au, PRX Quantum, Physical Review Research, The Journal of Chemical Theory and Computation</em> and <em>The International Journal of Quantum Chemistry</em>
+    - title: Committee member of the Quantum Computing paper track of the <a href='https://isc-hpc.com/'>ISC High Performance 2024</a>
 
 - title: Open Source Projects
   type: time_table
@@ -101,10 +102,15 @@
 - title: Invited Seminars
   type: time_table
   contents:
-    - title: Reducing necessary quantum hardware resources with explicitly correlated methods
+    - title: QuantumBW Colloquium, Stuttgart, Germany 
+      year: 2024
+      description:
+        - 'Quantum Computing Meets Quantum Chemistry: A Potential New Era of Simulation and Study' 
+        
+    - title: Algorithmiq Ltd., Helsinki, Finland 
       year: 2023
       description: 
-        - at Algorithmiq Ltd., Helsinki, Finland
+        - Reducing necessary quantum hardware resources with explicitly correlated methods
         - <a href='../assets/pdf/algorithmiq-talk-2023.pdf'>Slides</a>
     - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
       year: 2022
@@ -136,6 +142,10 @@
 - title: Conference Talks
   type: time_table
   contents:
+    - title: 'Faraday Discussions on Correlated electronic structure, London'
+      year: 2024 
+      description: Reducing Quantum Circuit Depth for Noise-Resilient Quantum Chemistry using the Transcorrelated Method and Adaptive Ansätze
+
     - title: 'Invited Talk: QED-C Quantum talent showcase, online'
       year: 2023
       description: Towards real chemical accuracy on current quantum hardware through the transcorrelated method
