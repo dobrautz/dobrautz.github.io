@@ -11,5 +11,5 @@ Thanks to all the friends and colleagues I met on the way ❤️
 
 I am very excited about what's coming up next! So stay tuned for news and PhD/Postdoc openings!
 
-{% include figure.html path="assets/img/hejda" title="Goodbye post" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/hejda.jpg" title="Goodbye post" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
