@@ -11,3 +11,6 @@ vendor
 _papers
 *.aux
 *.out
+*~
+*.log
+*.gz
