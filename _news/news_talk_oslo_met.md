@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Lecture at OsloMet's Autumn School on Quantum Computing'
+title: "Lecture at OsloMet's Autumn School on Quantum Computing"
 date: 2023-11-10
 inline: false
 related_posts: false
