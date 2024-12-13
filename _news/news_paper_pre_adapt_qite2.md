@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New preprint update
+title: 'New preprint update'
 date: 2024-05-17
 inline: false
 related_posts: false
