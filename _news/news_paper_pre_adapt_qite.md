@@ -16,6 +16,6 @@ By combining these two approaches, we can obtain more accurate results with smal
 
 #quantumchemistry #quantumcomputing
 
-{% include figure.html path="assets/img/adapt-toc1.jpg" title="Paper TOC graphic" class="img-fluid rounded z-depth-1" zoomable=true %} 
+{% include figure.html path="assets/img/adapt-toc.gif" title="Paper TOC graphic" class="img-fluid rounded z-depth-1" zoomable=true %} 
 
 
