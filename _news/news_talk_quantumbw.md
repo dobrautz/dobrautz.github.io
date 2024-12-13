@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Talk at the QuantumBW Colloquium on Quantum Computing for Quantum Chemistry'
-date: 2024-07-18
+date: 2024-09-26
 inline: false
 related_posts: false
 ---
