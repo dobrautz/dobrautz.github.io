@@ -68,13 +68,31 @@
       items: 
       - Expert knowledge of quantum Monte Carlo methods, esp. NECI. Well-experienced with PySCF and OpenMolcas. 
       - Knowledge of Molpro, iTensor, BlockDMRG, CASINO, TensorFlow, ALPS, Triqs and QuantumPackage
+
+    - title: Quantum Computing Software
+      items: 
+       - Expert knowledge of quantum algorithms development
+       - Expert knowledge of Qiskit and well-experienced with PennyLane, Cirq and OpenFermion
+
+    - title: Programming Languages
+      items: 
+      - Expert knowledge of Fortran and Python. 
+      - Well-experienced with parallelization in an HPC setting with OpenMP and MPI. 
+      - Knowledge of C++ 
+
+    - title: Software Development
+      items: 
+      - Expert knowledge of Git and experienced with CI/CD workflows.
   
 - title: Honors, Awards, and Scholarships
   type: time_table
   contents:
     - year: 2022
       items: 
-        - Marie Skłodowska-Curie Postdoctoral Fellowship 
+        - Marie Skłodowska-Curie Postdoctoral Fellowship (223k EUR)
+    - year: 2024
+      items: 
+        - 'Vinnova -- Attract, integrate and retain international excellence (44k EUR)'
 
 - title: Academic Service
   type: nested_list
