@@ -67,47 +67,47 @@
   - title: <a href='https://nordiquest.net/_posts/2023-12-15-QAS2023/'>NordIQuEst Quantum Autumn School</a>
     year: 2023
     description: 
-    - Gothenburg, Sweden
+      - Gothenburg, Sweden
 
   - title: <a href='https://uni.oslomet.no/quantum/upcoming-school-on-quantum-computing/'>OsloMet Autumn School on Quantum Computing</a>
     year: 2023 
     description: 
-    - Oslo, Norway
-    - Variational Hybrid Quantum Algorithms with Applications to Quantum Chemistry Problems
-    - <a href='../assets/pdf/dobrautz_lecture_slides.pdf'>Slides</a>
+      - Oslo, Norway
+      - Variational Hybrid Quantum Algorithms with Applications to Quantum Chemistry Problems
+      - <a href='../assets/pdf/dobrautz_lecture_slides.pdf'>Slides</a>
 
-  - title: <a href='http://www.chem.helsinki.fi/ws2022.html'>Winter School in Theoretical Chemistry -- Quantum Computers for Chemistry</a>
+  - title: <a href='http://www.chem.helsinki.fi/ws2022.html'>'Winter School in Theoretical Chemistry -- Quantum Computers for Chemistry'</a>
     year: 2022
     description: 
-    - Helsinki, Finland
-    - 'Lecture 1: Quantum imaginary time evolution (QITE)', <a href='../assets/pdf/01_qite_lecture_slides.pdf'>Slides</a>
-    - 'Lecture 2: Reducing necessary quantum hardware resources with explicitly correlated methods', <a href='../assets/pdf/02_tc_lecture_slides.pdf'>Slides</a>
+      - Helsinki, Finland
+      - 'Lecture 1: Quantum imaginary time evolution (QITE)', <a href='../assets/pdf/01_qite_lecture_slides.pdf'>Slides</a>
+      - 'Lecture 2: Reducing necessary quantum hardware resources with explicitly correlated methods', <a href='../assets/pdf/02_tc_lecture_slides.pdf'>Slides</a>
 
-  - title: 'Quantum Simulation in From quantum optics toquantum technologies course'
+  - title: '<i>Quantum Simulation</i> in <i>From quantum optics toquantum technologies course</i>'
     year: 2022, 2023
     description:
-    - MSc./PhD level course at Chalmers University of Technology, Gothenburg, Sweden
-    - <a href='../assets/pdf/lecture_slides.pdf'>Slides</a>
+      - 'MSc/PhD level course at Chalmers University of Technology, Gothenburg, Sweden'
+      - <a href='../assets/pdf/lecture_slides.pdf'>Slides</a>
 
   - title: Advanced Computational Physics
     year: 2013, 2014
     description: 
-    - 2nd year MSc. Physics course at TU Graz, Austria
+      - 2nd year MSc. Physics course at TU Graz, Austria
 
   - title: Advanced Quantum Mechanics
     year: 2013
     description: 
-    - 1st year MSc. Physics course at TU Graz, Austria
+      - 1st year MSc. Physics course at TU Graz, Austria
 
   - title: Theoretical Electrodynamics
     year: 2013
     description: 
-    - 3rd year BSc. Physics course at TU Graz, Austria
+      - 3rd year BSc. Physics course at TU Graz, Austria
 
   - title: Quantum Mechanics 
     year: 2012, 2013
     description:
-    - 2nd year BSc. Physics course at TU Graz, Austria
+      - 2nd year BSc. Physics course at TU Graz, Austria
 
 - title: Research-related Competences
   type: nested_list
@@ -152,7 +152,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/ghb24/NECI_STABLE">'NECI - full configuration interaction quantum Monte Carlo code' </a>
+    - title: <a href="https://github.com/ghb24/NECI_STABLE">'NECI - full configuration interaction quantum Monte Carlo code'</a>
       year: Since 2014
       description: NECI, a state-of-the-art implementation of the Full Configuration Interaction Quantum Monte Carlo (FCIQMC) algorithm, a method based on a stochastic application of the Hamiltonian matrix on a sparse sampling of the wave function. The program utilizes a very powerful parallelization and scales efficiently to more than 24 000 central processing unit cores.
     
