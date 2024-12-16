@@ -2,47 +2,65 @@
 - title: Invited Seminars
   type: time_table
   contents:
-    - title: Reducing necessary quantum hardware resources with explicitly correlated methods
+    - title: 'Fraunhofer IAO -- QuantumBW Colloquium, Stuttgart, Germany'
+      year: 2024
+      description:
+        - 'Quantum Computing Meets Quantum Chemistry: A Potential New Era of Simulation and Study' 
+        - <a href='../assets/pdf/talk_quantumBW.pdf'>Slides</a>
+        
+    - title: Algorithmiq Ltd., Helsinki, Finland 
       year: 2023
       description: 
-        - at Algorithmiq Ltd., Helsinki, Finland
+        - Reducing necessary quantum hardware resources with explicitly correlated methods
         - <a href='../assets/pdf/algorithmiq-talk-2023.pdf'>Slides</a>
-    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+    - title: Max Planck Institute for Solid State Research, Stuttgart, Germany        
       year: 2022
       description: 
-        - at Max Planck Institute for Solid State Research, Stuttgart, Germany        
-    - title: Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
+        - Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz 
+    - title: IBM Research Zürich, Rüschlikon, Switzerland 
       year: 2021
       description: 
-        - at IBM Research Zürich, Rüschlikon, Switzerland
+        -  Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz
         - <a href='../assets/pdf/talk_ibm.pdf'>Slides</a>
 
-    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+    - title: Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
       year: 2020 
       description: 
-        - at Sorbonne Universités,  Laboratoire de Chimie Theorique,  Paris, France
+        - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_manu.pdf'>Slides</a>
-    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+    - title: King's College, Department of Physics, London, UK
       year: 2020
       description: 
-        - at King's College, Department of Physics, London, UK
+        - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_at_george.pdf'>Slides</a>
-    - title: Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization
+    - title: Vienna University of Technology, Department of Physics, Vienna, Austria
       year: 2019 
       description: 
-        - at Vienna University of Technology, Department of Physics, Vienna, Austria
+        - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_andreas_st.pdf'>Slides</a>
 
 
 - title: Conference Talks
   type: time_table
   contents:
+    - title: 'Faraday Discussions on Correlated electronic structure, London'
+      year: 2024 
+      description: 
+      - Reducing Quantum Circuit Depth for Noise-Resilient Quantum Chemistry using the Transcorrelated Method and Adaptive Ansätze
+        - <a href='../assets/pdf/faraday-discussions-wd.pdf'>Slides</a>
+
     - title: 'Invited Talk: QED-C Quantum talent showcase, online'
       year: 2023
-      description: Towards real chemical accuracy on current quantum hardware through the transcorrelated method
+      description: 
+      - Towards real chemical accuracy on current quantum hardware through the transcorrelated method
+      - <a href='../assets/pdf/qed-c-talk.pdf'>Slides</a>
+
     - title: 'Invited Talk: QVEST -- Quo Vadis Electronic Structure Theory, Ringberg Castle, Germany'
       year: 2023
-      description: Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method
+      description: 
+      - Enabling accurate Quantum Chemistry on current and near-term Quantum Hardware with the Transcorrelated Method
+      - <a href='../assets/pdf/qvest-ringberg-talk.pdf'>Slides</a>
+
     - title: 'Invited Talk: Chalmers SmallTalks, Chalmers University, Gothenburg, Sweden'
       year: 2023
       description: 
@@ -94,7 +112,7 @@
       description: 
         - SU(2) Symmetry in FCIQMC using the Graphical Unitary Group Approach
         - <a href='../assets/pdf/dpg_presentation.pdf'>Slides</a>
-        
+      
 - title: Conference Posters
   type: time_table
   contents:
