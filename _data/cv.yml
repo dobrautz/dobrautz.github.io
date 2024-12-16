@@ -61,6 +61,52 @@
           - <a href="https://diglib.tugraz.at/application-of-the-full-configuration-interaction-quantum-monte-carlo-algorithm-to-the-two-dimensional-fermionic-hubbard-model-2014">
            Application of the full configuration interaction quantum Monte Carlo algorithm to the two-dimensional fermionic Hubbard model</a>
 
+- title: Teaching
+  type: time_table 
+  contents: 
+  - title: <a href='https://nordiquest.net/_posts/2023-12-15-QAS2023/'>NordIQuEst Quantum Autumn School</a>
+    year: 2023
+    description: 
+    - Gothenburg, Sweden
+
+  - title: <a href='https://uni.oslomet.no/quantum/upcoming-school-on-quantum-computing/'>OsloMet Autumn School on Quantum Computing</a>
+    year: 2023 
+    description: 
+    - Oslo, Norway
+    - Variational Hybrid Quantum Algorithms with Applications to Quantum Chemistry Problems
+    - <a href='../assets/pdf/dobrautz_lecture_slides.pdf'>Slides</a>
+
+  - title: <a href='http://www.chem.helsinki.fi/ws2022.html'>'Winter School in Theoretical Chemistry -- Quantum Computers for Chemistry'</a>
+    year: 2022
+    description: 
+    - Helsinki, Finland
+    - 'Lecture 1: Quantum imaginary time evolution (QITE)', <a href='../assets/pdf/01_qite_lecture_slides.pdf'>Slides</a>
+    - 'Lecture 2: Reducing necessary quantum hardware resources with explicitly correlated methods', <a href='../assets/pdf/02_tc_lecture_slides.pdf'>Slides</a>
+
+  - title: 'Quantum Simulation in From quantum optics toquantum technologies course'
+    year: 2022, 2023
+    description:
+    - MSc./PhD level course at Chalmers University of Technology, Gothenburg, Sweden
+
+  - title: Advanced Computational Physics
+    year: 2013, 2014
+    description: 
+    - 2nd year MSc. Physics course at TU Graz, Austria
+
+  - title: Advanced Quantum Mechanics
+    year: 2013
+    description: 
+    - 1st year MSc. Physics course at TU Graz, Austria
+
+  - title: Theoretical Electrodynamics
+    year: 2013
+    description: 
+    - 3rd year BSc. Physics course at TU Graz, Austria
+
+  - title: Quantum Mechanics 
+    year: 2012, 2013
+    description:
+    - 2nd year BSc. Physics course at TU Graz, Austria
 
 - title: Research-related Competences
   type: nested_list
@@ -285,15 +331,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Quantum Chemistry
-    - title: Quantum Computing
-    - title: Quantum Monte Carlo
-    - title: Method development
-    - title: Electronic Structure Theory
-    - title: Quantum Many-body physics
-    - title: Strongly Correlated Electron Systems
-    - title: Computational Solid State Physics
-   
+    - title: Quantum Chemistry/Physics, Electronic Structure Theory Strongly Correlated Electron Systems
+    - title: Quantum Many-body physics, Computational Solid State Physics
+    - title: Quantum Computing, Quantum Monte Carlo, Method development
+    - title: Neural Quantum States, AI 4 Quantum, Machine Learning for the Natural Sciences
+
 - title: Other Interests
   type: list
   contents:
