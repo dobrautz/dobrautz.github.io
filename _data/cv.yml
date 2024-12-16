@@ -78,6 +78,8 @@
 
   - title: Test
     year: 2022
+    description:
+      - Test
 
   - title: '<i>Quantum Simulation</i> in <i>From quantum optics toquantum technologies course</i>'
     year: 2022, 2023
