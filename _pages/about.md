@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Marie Skłodowska-Curie PostDoc Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a>
+subtitle: '<a href="https://dresden-concept.de/current/research-group-werner-dobrautz/?lang=en">DRESDEN-concept Research Group Leader</a> at <a href="https://www.casus.science/">Center for Advanced Systems Understanding (CASUS)</a> at HZDR and <a href="https://scads.ai/">Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI)</a> at TU Dresden'
 
 profile:
   align: right

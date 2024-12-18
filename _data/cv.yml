@@ -14,14 +14,20 @@
 - title: Experience
   type: time_table
   contents:
+    - title: 'DRESDEN-concept Research Group Leader -- AI 4 Quantum'
+      institution: 'Center for Advanced Systems Understanding (CASUS) at HZDR and Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) at TU Dresden'
+      year: since 2024
+      description:
+        - 'Research Group Leader to develop Machine Learning and AI approaches for Quantum Simulation and Computing'
+
     - title: 'Remote Fellow -- Young Investigator Group Preparation Program'
       institution: Karlsruhe Institute of Technology, Steinbuch Centre for Computing,  Karlsruhe, Germany
-      year: Since 2023
+      year: 2023-2024
       description:
         - Preparation and Mentorship Program for Independent Group Leader Funding Applications
     - title: Marie Skłodowska-Curie Postdoctoral Fellow
       institution: Chalmers University of Technology and Wallenberg Centre for Quantum Technology, Gothenburg, Sweden
-      year: Since 2022
+      year: 2022-2024
       description:
         - Quantum algorithm development to enable accurate and efficient ab initio calculations on current and near-term quantum computers.
 
