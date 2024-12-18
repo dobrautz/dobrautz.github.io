@@ -46,8 +46,6 @@ My ongoing research focuses on three areas: (1) the development of highly accura
 You can find more info about my past and current research interests and projects below!
 <br>
 
-! PAGE IS UNDER CONSTRUCTION!
-
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
