@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Research Overview
+title: Research
 permalink: /projects/
-description: <font size="4">  An overview of my past and current research projects</font>
+description: 
+<font size="4">  
+An overview of my past and current research projects
+</font>
 nav: true
 nav_order: 2
 display_categories: [Research]
