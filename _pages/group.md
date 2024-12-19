@@ -2,7 +2,7 @@
 layout: page
 title: Group
 permalink: /group/
-description: Dobrautz lab
+description: <font size="4">  Dobrautz Lab</font>
 nav: true
 ---
 

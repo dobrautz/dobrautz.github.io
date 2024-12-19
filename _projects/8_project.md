@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PhD Thesis
-description: Development of full configuration interaction quantum Monte Carlo methods for strongly correlated electron systems
+description: <font size="4">  Development of full configuration interaction quantum Monte Carlo methods for strongly correlated electron systems</font>
 img: assets/img/fciqmc_spawning_step.jpg
 importance: 8
 category: Research

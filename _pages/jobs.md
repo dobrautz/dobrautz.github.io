@@ -2,7 +2,7 @@
 layout: page
 title: Jobs
 permalink: /jobs/
-description: Open positions in my group
+description: <font size="4">  Open positions in my group</font>
 nav: true
 ---
 

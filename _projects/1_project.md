@@ -1,10 +1,11 @@
 ---
 layout: page
-title: FCIQMC
-description: Development of the full configuration interaction quantum Monte Carlo method
+title: Quantum Monte Carlo
+description: <font size="4">  Development of the full configuration interaction quantum Monte Carlo method</font>
 img: assets/img/neci.png
 importance: 5
 category: Research
+permalink: /projects/qmc/
 ---
 
 Instead of describing all possible states of a system, Monte Carlo (MC) methods rely on random numbers to sample the physically most relevant and representative ones and draw conclusions from them to understand the underlying physical properties of a system. <br>

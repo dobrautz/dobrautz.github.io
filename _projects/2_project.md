@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spin symmetry 
-description: Implementation and exploitation of spin symmetry
+description: <font size="4">  Implementation and exploitation of spin symmetry</font>
 img: assets/img/casscf.png
 importance: 4
 category: Research
