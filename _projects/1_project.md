@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quantum Monte Carlo
-description: <font size="4">  Development of the full configuration interaction quantum Monte Carlo method</font>
+description: Development of the full configuration interaction quantum Monte Carlo method
 img: assets/img/neci.png
 importance: 5
 category: Research
