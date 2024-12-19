@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: Projects
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Quantum Computing
+      permalink: /projects/quantum/
     - title: divider
     - title: projects
       permalink: /projects/
