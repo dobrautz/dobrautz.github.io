@@ -5,6 +5,7 @@ description: Development of full configuration interaction quantum Monte Carlo m
 img: assets/img/fciqmc_spawning_step.jpg
 importance: 8
 category: Research
+
 ---
 
 <p>

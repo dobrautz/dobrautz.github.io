@@ -5,7 +5,6 @@ description: Development of the full configuration interaction quantum Monte Car
 img: assets/img/neci.png
 importance: 5
 category: Research
-permalink: /projects/quantum/
 ---
 
 Instead of describing all possible states of a system, Monte Carlo (MC) methods rely on random numbers to sample the physically most relevant and representative ones and draw conclusions from them to understand the underlying physical properties of a system. <br>
