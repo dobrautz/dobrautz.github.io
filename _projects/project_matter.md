@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quantum Matter
-description: <font size="4"> Quantum Matter </font>
+description: Quantum Matter
 img: 
 importance: 1
 category: Research

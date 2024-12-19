@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI 4 Quantum
-description: <font size="4"> AI 4 Quantum Project</font>
+description: AI 4 Quantum Project
 img: 
 importance: 1
 category: Research

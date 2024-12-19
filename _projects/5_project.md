@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Hubbard model 
-description: <font size="4">  Studies and approaches concerning the Hubbard model</font>
+description: Studies and approaches concerning the Hubbard model
 img: assets/img/hubbard-gutzwiller-igor.png
 importance: 6
 category: Hide

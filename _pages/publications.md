@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <font size="4">  Publications in reversed chronological order. All papers can be found on either the arXiv or ChemRxiv</font>
+description: Publications in reversed chronological order. All papers can be found on either the <a href='https://arxiv.org/'>arXiv</a> or <a href='https://chemrxiv.org/engage/chemrxiv/public-dashboard'>ChemRxiv</a>
 nav: true
 nav_order: 1
 ---

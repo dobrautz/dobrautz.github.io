@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Transcorrelation
-description: <font size="4">  Development and application of the transcorrelated method</font>
+description: Development and application of the transcorrelated method
 img: assets/img/tc_motivation_5.png
 importance: 2
 category: Research
