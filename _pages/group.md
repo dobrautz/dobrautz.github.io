@@ -4,7 +4,8 @@ title: Group
 permalink: /group/
 description: Dobrautz Lab
 nav: true
-display_categories: [PI, PostDoc, PhD]
+display_categories: [PI, PostDocs, PhDs, Master/Bachelor, Alumni]
+horizontal: true
 ---
 
 
