@@ -11,13 +11,9 @@ horizontal: true
 
 <h3>Motivation</h3> 
 <p>
-	Electronic structure theory is concerned with the solution of the Schödinger equation to obtain ground and excited states
-	energies, wavefunctions, and properties of quantum mechanical systems of interest.
-	A solution of the correlated motion of electrons would allow a description 
-	of many groundbreaking yet unsolved physical and chemical phenomena, like unconventional high-Tc
-	superconductivity, photosynthesis, or nitrogen fixation.
-	With an efficient method to solve this problem, we could predict and design the chemical and physical properties of novel 
-	quantum materials and molecules. 
+	Electronic structure theory is concerned with the solution of the Schödinger equation to obtain ground and excited states	energies, wavefunctions, and properties of quantum mechanical systems of interest.
+	A solution of the correlated motion of electrons would allow a description of many groundbreaking yet unsolved physical and chemical phenomena, like unconventional high-Tc	superconductivity, photosynthesis, or nitrogen fixation.
+	With an efficient method to solve this problem, we could predict and design the chemical and physical properties of novel quantum materials and molecules. 
 </p>
 
 {% include figure.html path="assets/img/schrodinger.png" title="Electronic Structure Problem" class="center" %} 
@@ -25,20 +21,20 @@ horizontal: true
 
 <h3>Background</h3> 
 
-I studied physics, specializing in computational solid-state physics, at Graz University of Technology Austria.
-Subsequently, I obtained my Ph.D. in computational quantum chemistry in the field of stochastic wavefunction theory for strongly correlated electron systems at the Max Planck Institute of Solid State Research and the University of Stuttgart. 
-Currently, I am a Marie Skłodowska-Curie Postdoctoral Fellow at <a href='https://www.chalmers.se/en/persons/dobrautz/'>Chalmers University of Technology</a> developing novel quantum computing algorithms to perform realistic ab initio calculations on near-term quantum computing devices. <br>
+I studied technical physics at Graz University of Technology, specializing in computational solid-state physics. I obtained my PhD in computational quantum chemistry at the Max Planck Institute for Solid State Research and the University of Stuttgart in 2019. My research during my PhD focused on developing innovative quantum Monte Carlo methods in a high-performance computing (HPC) setting to solve strongly correlated electron problems. From 2021 until the end of 2024, I was a Marie Skłodowska-Curie Postdoctoral Fellow at Chalmers University of Technology in Gothenburg, Sweden. My research at Chalmers University and the Wallenberg Centre for Quantum Technologies focused on developing novel quantum computing algorithms to enable realistic electronic structure calculations on current and near-term quantum computing (QC) devices.
+<br>
+
 I have a strong knowledge of various modern theoretical and computational quantum chemistry and physics methods. 
 I acquired extensive algorithm design and development expertise as the main developer of the publicly available full configuration interaction quantum Monte Carlo (FCIQMC) code <a href='https://github.com/ghb24/NECI_STABLE'>NECI</a> during my Ph.D. and consequent PostDoc.
 <br>
 
+Since December 2024, I am a DRESDEN-concept research group leader jointly appointed at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) in Dresden and the Center for Advanced Systems Understanding (CASUS) in Görlitz.
 {% include figure.html path="assets/img/cv_map.png" title="CV Map" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 <h3>Research</h3>
 
-My ongoing research focuses on three areas: (1) the development of highly accurate quantum Monte Carlo (QMC) methods for high-performance computing clusters to solve strongly correlated electron problems; (2) developing novel quantum computing (QC) algorithms to perform realistic electronic structure calculations on near-term intermediate-scale quantum (NISQ) devices; and (3) a seamless integration of a hybrid HPC+QC approach to tackle relevant solid state and electronic structure problems on NISQ devices. This will pave the way to simulate strongly correlated electron systems of high scientific and economic interest, where accurate approaches are needed to understand groundbreaking physical phenomena like high-temperature superconductivity, photosynthesis, or nitrogen fixation.
-<br><br>
-
+ In my current role, I am building an <b>AI 4 Quantum</b> research group that focuses on developing a synergistic HPC+QC approach aided by novel artificial intelligence/deep machine learning methods to enable the computational study of complex quantum systems relevant to the green energy transition. 
+Additionally, my current research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <br>
 
 {% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center" %} 
 
