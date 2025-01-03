@@ -25,5 +25,7 @@ I acquired extensive algorithm design and development expertise as the main deve
 <br>
 
 Since December 2024, I am a DRESDEN-concept research group leader jointly appointed at the Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) in Dresden and the Center for Advanced Systems Understanding (CASUS) in Görlitz. In my current role, I am building an AI4Quantum research group that focuses on developing a synergistic HPC+QC approach aided by novel artificial intelligence/deep machine learning methods to enable the computational study of complex quantum systems relevant to the green energy transition. 
-Additionally, my current research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <br><br>
+Additionally, my current research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <br>
+
+Read more about my group's research <a href='/projects/'>here</a> and stay tuned for upcoming <a href='/jobs/'>PhD and PostDoc openings!</a>
 

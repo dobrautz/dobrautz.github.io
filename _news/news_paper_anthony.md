@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'New preprint: Quantum computing in spin-adapted representations for efficient
-simulations of spin systems'
+title: 'New preprint: Quantum computing in spin-adapted representations for efficient simulations of spin systems'
 date: 2025-01-03
 inline: false
 related_posts: false
