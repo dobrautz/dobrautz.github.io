@@ -8,7 +8,6 @@ display_categories: [PI, PostDocs, PhDs, Master/Bachelor, Alumni]
 horizontal: true
 ---
 
-
 <!-- pages/group.md -->
 <div class="group">
 {%- if site.enable_project_categories and page.display_categories %}

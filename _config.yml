@@ -178,6 +178,9 @@ collections:
   group:
     output: true 
     permalink: /group/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
 
 announcements:
   enabled: true
