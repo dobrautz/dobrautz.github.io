@@ -8,16 +8,14 @@ children:
     - title: Overview
       permalink: /projects/
     - title: divider
-    - title: Quantum Computing
-      permalink: /projects/quantum/
+    - title: qHPC-GREEN
+      permalink: /projects/qhpc/
     - title: divider
     - title: AI 4 Quantum
       permalink: /projects/ai4quantum/
     - title: divider
-    - title: Quantum Matter
+    - title: Electronic Structure Theory
       permalink: /projects/matter/
     - title: divider
-    - title: Quantum Monte Carlo
-      permalink: /projects/qmc/
     
 ---
