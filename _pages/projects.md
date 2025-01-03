@@ -38,7 +38,6 @@ Additionally, my current research focuses on developing innovative quantum Monte
 
 {% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center" %} 
 
-
 You can find more info about my past and current research interests and projects below!
 <br>
 
