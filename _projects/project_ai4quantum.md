@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI 4 Quantum
-description: AI 4 Quantum Project
+description: Machine Learning for Quantum Simulation and Quantum Computing 
 img: /assets/img/venn_ai2.png
 importance: 1
 category: Research
@@ -19,7 +19,6 @@ The groups' research foci are:
 -- Extending the reach and enhancing the accuracy of existing quantum Monte Carlo methods for complex quantum systems through AI approaches.  <br>
 
 {% include figure.html path="assets/img/venn_ai2.png" title="AI Venn" class="center img-fluid rounded z-depth-1" zoomable=true %} 
-
 
 <h3>Motivation</h3> 
 
@@ -44,3 +43,13 @@ The aim of <b>AI 4 Quantum</b> is to develop and apply novel deep machine learni
 To achieve this goal, my team and I will pursue three separate yet complementary research pillars:
 
 {% include figure.html path="assets/img/vision_ai_short.png" title="Vision AI 4 Quantum" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+
+
+(Under construction)
+
+Hosted by:
+{% include figure.html path="assets/img/hosted_by/hosted_by.001.png" title="Hosted by" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+
+Funded by:
+{% include figure.html path="assets/img/funded_by/funded_by.001.png" title="Hosted by" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+
