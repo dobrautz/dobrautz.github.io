@@ -6,7 +6,7 @@ description: Dobrautz Lab
 nav: true
 display_categories: [PI, PostDocs, PhDs, Master/Bachelor, Alumni]
 horizontal: true
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- pages/group.md -->
