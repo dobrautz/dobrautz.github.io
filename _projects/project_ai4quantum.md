@@ -2,7 +2,7 @@
 layout: page
 title: AI 4 Quantum
 description: AI 4 Quantum Project
-img: /assets/img/venn_ai2.pdf
+img: /assets/img/venn_ai2.png
 importance: 1
 category: Research
 permalink: /projects/ai4quantum/
