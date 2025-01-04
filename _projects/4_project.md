@@ -4,7 +4,7 @@ title: Transcorrelation
 description: Development and application of the transcorrelated method
 img: assets/img/tc_motivation_5.png
 importance: 2
-category: Research
+category: Research Topics
 ---
 
 ! UNDER CONSTRUCTION ! <br>

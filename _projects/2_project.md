@@ -4,7 +4,7 @@ title: Spin symmetry
 description: Implementation and exploitation of spin symmetry
 img: assets/img/casscf.png
 importance: 4
-category: Research
+category: Research Topics
 ---
 
 ! UNDER CONSTRUCTION ! <br>

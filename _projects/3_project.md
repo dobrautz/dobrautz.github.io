@@ -4,7 +4,7 @@ title: Method development
 description: My contributions to method and code development
 img: assets/img/molcas.jpeg
 importance: 3
-category: Research
+category: Research Topics
 ---
 
 ! UNDER CONSTRUCTION ! <br>

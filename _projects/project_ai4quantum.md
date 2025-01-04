@@ -4,7 +4,7 @@ title: AI 4 Quantum
 description: Machine Learning for Quantum Simulation and Quantum Computing 
 img: /assets/img/venn_ai2.png
 importance: 1
-category: Research
+category: Projects
 permalink: /projects/ai4quantum/
 ---
 <h3>Overview</h3> 

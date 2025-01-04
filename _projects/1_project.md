@@ -4,7 +4,7 @@ title: Quantum Monte Carlo
 description: Development of the full configuration interaction quantum Monte Carlo method
 img: assets/img/neci.png
 importance: 5
-category: Research
+category: Research Topics
 permalink: /projects/qmc/
 ---
 

@@ -3,8 +3,8 @@ layout: page
 title: Quantum Computing 
 description: My research in the area of novel quantum computing approaches to solve the electronic structure problem
 img: assets/img/hybrid_quantum_classical.png
-importance: 1
-category: Research
+importance: 2
+category: Research Topics
 permalink: /projects/quantum/
 ---
 
