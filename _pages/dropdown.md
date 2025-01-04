@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Research
 nav: true
-nav_order: 6
+nav_order: 3
 dropdown: true
 children: 
     - title: Overview
@@ -13,9 +13,5 @@ children:
     - title: divider
     - title: AI 4 Quantum
       permalink: /projects/ai4quantum/
-    - title: divider
-    - title: Electronic Structure Theory
-      permalink: /projects/matter/
-    - title: divider
     
 ---

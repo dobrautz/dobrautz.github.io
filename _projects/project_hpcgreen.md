@@ -10,13 +10,14 @@ permalink: /projects/qhpc/
 <h3>Overview</h3> 
 In the research project <b>qHPC-GREEN</b>, we aim to address the challenges posed by climate change and the imperative for a green energy transition by leveraging the synergistic potential of high-performance computing (HPC) and quantum computing (QC) to model quantum mechanical systems pivotal to biochemical and physical phenomena relevant to environmental and energy challenges.
 
+{% include figure.html path="assets/img/qhpc-green.png" title="qHPC-GREEN TOC" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+
 One of the main obstacles to advancing green technologies, such as bio-catalysis for efficient ammonia production, is the complexity of their underlying quantum mechanical mechanisms. These processes, catalyzed by small quantum systems with strong electronic correlations, are not yet fully understood and pose significant challenges to experimental and theoretical investigation. Hence, there is a pressing need for sophisticated computational models to elucidate these phenomena and support the development of effective catalysts and other green technologies. Especially artificial enzymatic nitrogen fixation at lower temperatures and pressures would offer a more sustainable alternative to the energy-intensive Haber-Bosch process, thereby drastically reducing greenhouse gas emissions.
 
 In this project, we aim to bridge this gap through an innovative approach that combines the strengths of both classical and novel quantum computing hardware. The project aims to develop a seamless hybrid HPC+QC methodology tailored to accurately describe quantum materials and bio-inspired catalysts. This approach includes a correlated method to minimize quantum resources and a divide-and-conquer strategy utilizing HPC for weakly-correlated and QC for strongly-correlated regions. The seamless HPC+QC computational toolset will aid in understanding biological nitrogen fixation performed by the nitrogenase enzyme and its iron-molybdenum cofactor. 
 
 This project aims to create algorithms that exploit the unique advantages of QC, particularly in treating small, strongly correlated regions that are challenging for classical computations. Integrating QC solutions with conventional HPC approaches will create a powerful computational toolset expected to address complex environmental science research problems beyond the capabilities of existing computational methods.
 
-{% include figure.html path="assets/img/qhpc-green.png" title="qHPC-GREEN TOC" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
 <h3>Objectives</h3>
 This project aims to develop hybrid HPC+QC algorithms, enabling accurate electronic structure calculations of strongly correlated problems with significant scientific and economic implications in the form of transition-metal clusters involved in enzymatic nitrogen fixation.

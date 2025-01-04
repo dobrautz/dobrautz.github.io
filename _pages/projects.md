@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /projects/
 description: An overview of my past and current research projects
-nav: true
+nav: false
 nav_order: 2
 display_categories: [Projects, Research Topics]
 horizontal: true

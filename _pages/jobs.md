@@ -6,6 +6,7 @@ description: Open positions in my group
 nav: true
 display_categories: [PostDoc, PhD, Master/Bachelor Theses]
 horizontal: true
+nav_order: 3
 ---
 
 Stay tuned!
