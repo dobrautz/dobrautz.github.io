@@ -12,4 +12,3 @@ I co-supervised Mårten in the second part of his PhD thesis, with the amazing t
 Mårten now is project lead at <a href='https://chalmersnextlabs.se/staff/'><i>Chalmers Next Labs</i></a>. A company that builds a testbed for quantum technology and offers services ranging from testing quantum components in cryogenic and ultra-high vacuum environments to developing quantum algorithms. 
 
 
-
