@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Werner Dobrautz
-description: Group Leader
+description: Originally from Austria, studied Physics at TU Graz and obtained my PhD in computaional chemistry at the MPI for Solid State Research and the University of Stuttgart with a focus on electronic structure theory. 
 img: assets/img/WDobrautz-4-comp.jpg
 importance: 5
-category: PI
+category: Group Leader
 permalink: /group/werner/
 ---
 
