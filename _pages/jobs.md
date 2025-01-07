@@ -9,7 +9,7 @@ horizontal: true
 nav_order: 2
 ---
 
-Stay tuned!
+Join our open-minded, supportive, and ambitious research group in Dresden and Görlitz! We have upcoming funded PhD and Postdoctoral positions, stay tuned! We seek motivated individuals with a passion for fields like: computational physics, theoretical chemistry, quantum computing technologies, quantum information science, machine learning and artificial intelligence. Programming expertise, and a solid background in one (or multiple) of the above mentioned topics is a plus! We are dedicated to fostering a supportive and inclusive research environment that encourages scientific excellence. We explicitly welcome applications from individuals of all backgrounds. 
 
 
 <!-- pages/jobs.md -->
@@ -59,3 +59,6 @@ Stay tuned!
   {%- endif -%}
 {%- endif -%}
 </div>
+
+We are also open and interested in assisting with applications for competitive postdoctoral research fellowships (details below). 
+
