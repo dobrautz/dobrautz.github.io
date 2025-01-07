@@ -2,7 +2,7 @@
 layout: page
 title: Dr. Stefan Knecht
 description: Quantum Chemistry Team Lead, Algorithmiq Ltd.
-img: assets/img/stefan.jpg
+img: assets/img/stefan.png
 importance: 5
 category: Collaborators
 permalink: /group/collab/stefan/

@@ -2,7 +2,7 @@
 layout: page
 title: Dr. Ivano Tavernelli
 description: Senior researcher at IBM Research-Zurich
-img: assets/img/ivano.jpg
+img: assets/img/ivano.png
 importance: 5
 category: Collaborators
 permalink: /group/collab/ivano/

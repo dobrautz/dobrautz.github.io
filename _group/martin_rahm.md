@@ -2,7 +2,7 @@
 layout: page
 title: Prof. Martin Rahm
 description: Associate Professor at Chalmers University of Technology
-img: assets/img/rahmma.jpg
+img: assets/img/rahmma.webp
 importance: 5
 category: Collaborators
 permalink: /group/collab/martin/
