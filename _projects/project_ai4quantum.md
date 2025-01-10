@@ -35,8 +35,7 @@ Thus, we need the aid of approximations and computational approaches.
 There exists a wide variety of computational methods, ranging from affordable mean-field Hartree-Fock (HF) and density functional theory (DFT) to highly accurate but computationally expensive approaches like quantum Monte Carlo (QMC). 
 Mean-field methods yield satisfactory results for so-called weakly correlated systems.  However, HF and DFT are inadequate to describe the strongly correlated quantum systems that enable artificial nitrogen fixation or superconductivity.  Advanced and costly computational methods are required to study these systems. However, the computational cost of these accurate methods grows steeply with the size of the investigated system -- at worst exponentially. Thus, the application of accurate methods is currently limited to only the tiniest of problems.
 
-
-The aim of <b>AI 4 Quantum</b> is to develop and apply novel deep machine learning, neural network and artificial intelligence approaches to extend the reach of accurate computational methods to strongly correlated quantum matter relevant for the green energy transition. 
+The aim of <b>AI 4 Quantum</b> is to develop and apply novel deep machine learning, neural network and artificial intelligence approaches to extend the reach of accurate computational methods to study strongly correlated quantum matter relevant for the green energy transition. 
 
 {% include figure.html path="assets/img/ai_extend_reach.png" title="AI Extend Reach" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
