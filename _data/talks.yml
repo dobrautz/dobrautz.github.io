@@ -14,10 +14,12 @@
       description: 
         - Reducing necessary quantum hardware resources with explicitly correlated methods
         - <a href='../assets/pdf/algorithmiq-talk-2023.pdf'>Slides</a>
+
     - title: Max Planck Institute for Solid State Research, Stuttgart, Germany        
       year: 2022
       description: 
         - Reducing the computational footprint on quantum hardware by a correlated wavefunction Ansatz 
+
     - title: IBM Research Zürich, Rüschlikon, Switzerland 
       year: 2021
       description: 
@@ -29,17 +31,18 @@
       description: 
         - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_manu.pdf'>Slides</a>
+
     - title: King's College, Department of Physics, London, UK
       year: 2020
       description: 
         - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_at_george.pdf'>Slides</a>
+
     - title: Vienna University of Technology, Department of Physics, Vienna, Austria
       year: 2019 
       description: 
         - Non-unitary similarity transformation of the electronic Schrödinger equation via Gutzwiller and Jastrow factorization 
         - <a href='../assets/pdf/talk_andreas_st.pdf'>Slides</a>
-
 
 - title: Conference Talks
   type: time_table
