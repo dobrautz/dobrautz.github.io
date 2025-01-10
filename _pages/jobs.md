@@ -60,7 +60,9 @@ Join our open-minded, supportive, and ambitious research group in Dresden and GÃ
 {%- endif -%}
 </div>
 
+<h4>
 We are also open and interested in assisting with applications for competitive postdoctoral research fellowships, like: 
+</h4>
 <ul>
 <li>
 <a href='https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship'>Humboldt Research Fellowship</a>
