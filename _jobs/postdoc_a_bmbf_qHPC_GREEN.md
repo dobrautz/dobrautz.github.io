@@ -3,7 +3,7 @@ layout: page
 title: Postdoc (f/m/d)
 description: Postdoc (f/m/d) in Quantum Computing for Quantum Chemistry
 importance: 5
-category: Hide
+category: PostDoc
 permalink: /jobs/postdoc/qhpc-green-1
 ---
 
@@ -12,8 +12,8 @@ Postdoc (f/m/d) in <br>
 <i>Quantum Computing for Quantum Chemistry</i>
 </h3>
 
-Official job advertisement: <a href=''>TODO</a> <br>
-<b>Application deadline: TODO</b>
+Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> <br>
+<b>Application deadline: 5 February 2025</b>
 
 <h4> Background </h4>
 

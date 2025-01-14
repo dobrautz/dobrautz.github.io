@@ -9,7 +9,7 @@ horizontal: true
 nav_order: 2
 ---
 
-Join our open-minded, supportive, and ambitious research group in Dresden and Görlitz! We have upcoming funded PhD and Postdoctoral positions, stay tuned! We seek motivated individuals with a passion for fields like: computational physics, theoretical chemistry, quantum computing technologies, quantum information science, machine learning and artificial intelligence. Programming expertise, and a solid background in one (or multiple) of the above mentioned topics is a plus! We are dedicated to fostering a supportive and inclusive research environment that encourages scientific excellence. We welcome applications from individuals of all backgrounds and expressly invite members of underrepresented groups to apply. 
+Join our open-minded, supportive, and ambitious research group in Dresden and Görlitz! We have upcoming funded PhD and Postdoctoral positions, stay tuned! We seek motivated individuals with a passion for fields like: computational physics, theoretical chemistry, quantum computing technologies, quantum information science, machine learning and artificial intelligence. Programming expertise, and a solid background in one (or multiple) of the above-mentioned topics is a plus! We are dedicated to fostering a supportive and inclusive research environment that encourages scientific excellence. We welcome applications from individuals of all backgrounds and expressly invite members of underrepresented groups to apply. 
 
 
 <!-- pages/jobs.md -->

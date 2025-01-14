@@ -3,7 +3,7 @@ layout: page
 title: Fully funded 3-year PhD Student (f/m/d)
 description: PhD Student (f/m/d) in Quantum Computing for Ground and Excited State Electronic Structure Calculations
 importance: 5
-category: Hide
+category: PhD
 permalink: /jobs/phd/qhpc-green-1
 ---
 
@@ -11,8 +11,8 @@ permalink: /jobs/phd/qhpc-green-1
 Fully funded 3-year PhD Student (f/m/d) in <br><i>Quantum Computing for Ground and Excited State Electronic Structure Calculations </i>
 </h3>
 
-Official job advertisement: <a href=''>TODO</a> <br>
-<b>Application deadline: TODO</b>
+Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73688'>Link</a> <br>
+<b>Application deadline: 5 February 2025</b>
 
 <h4> Background </h4>
 
