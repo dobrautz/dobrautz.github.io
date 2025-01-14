@@ -3,7 +3,7 @@ layout: page
 title: PostDoc
 description: PostDoc
 importance: 5
-category: PostDoc
+category: Hide
 permalink: /jobs/postdoc/
 ---
 
