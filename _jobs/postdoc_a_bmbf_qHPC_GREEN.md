@@ -54,6 +54,6 @@ If you are interested please apply via HZDR online-application-system found on t
 <b>Only applications via the application system can be considered. </b>
 
 If you have any questions, please reach out to me via: 
-<a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding qHPC-GREEN-PhD ad">email</a>. 
+<a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding qHPC-GREEN PostDoc ad">email</a>. 
 
 {% include figure.html path="assets/img/BMBF_gefoerdert_2017_en.png" title="Funding" class="img-fluid rounded z-depth-1" zoomable=true %}
