@@ -7,8 +7,10 @@ category: PhD
 permalink: /jobs/phd/qhpc-green-1
 ---
 
-<h3><center>
+<h3>
+<center>
 Fully funded 3-year PhD Student (f/m/d) in <br><i>Quantum Computing for Ground and Excited State Electronic Structure Calculations </i>
+</center>
 </h3>
 
 Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73688'>Link</a> <br>
