@@ -7,12 +7,16 @@ category: PostDoc
 permalink: /jobs/postdoc/qhpc-green-1
 ---
 
-<h3><center>
+<h3>
+<center>
 Postdoc (f/m/d) in <br>
 <i>Quantum Computing for Quantum Chemistry</i>
+</center>
 </h3>
 
-Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> <br>
+Official job advertisement: 
+<a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> 
+<br>
 <b>Application deadline: 5 February 2025</b>
 
 <h4> Background </h4>
@@ -45,10 +49,11 @@ You can find more information about us, our research, and the PI here on our <a 
 
 We are dedicated to fostering a supportive and inclusive research environment that encourages scientific excellence. We welcome applications from individuals of all backgrounds and expressly invite members of underrepresented groups to apply.
 
-If you are interested please apply via HZDR online-application-system found on the bottom of the official job advertisement : <a href=''>TODO</a> <br>
+If you are interested please apply via HZDR online-application-system found on the bottom of the official job advertisement: 
+<a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> <br>
 <b>Only applications via the application system can be considered. </b>
 
 If you have any questions, please reach out to me via: 
 <a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding qHPC-GREEN-PhD ad">email</a>. 
 
-{% include figure.html path="assets/img/BMBF_gefoerdert_2017_en 2.eps" title="Funding" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/BMBF_gefoerdert_2017_en.png" title="Funding" class="img-fluid rounded z-depth-1" zoomable=true %}
