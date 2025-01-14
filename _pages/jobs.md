@@ -89,3 +89,9 @@ We are also open and interested in assisting with applications for competitive p
 </li>
 
 </ul>
+
+or PhD fellowships, like:
+<a href='https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739'> DAAD Doctoral Fellowship </a>
+or the 
+<a href='https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?status=&origin=&subjectGrps=&daad=&intention=&q=research&page=1&detail=57742121'>DAAD Doctoral Progamme
+</a>
