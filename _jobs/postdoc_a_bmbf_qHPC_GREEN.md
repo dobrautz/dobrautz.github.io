@@ -17,7 +17,7 @@ Postdoc (f/m/d) in <br>
 Official job advertisement: 
 <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> 
 <br>
-<b>Application deadline: 5 February 2025</b>
+<b>Application deadline: 12 February 2025</b>
 
 <h4> Background </h4>
 

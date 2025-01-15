@@ -16,7 +16,7 @@ Fully funded 3-year PhD Student (f/m/d) in <br><i>Quantum Computing for Ground a
 Official job advertisement: 
 <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73688'>Link</a> 
 <br>
-<b>Application deadline: 5 February 2025</b>
+<b>Application deadline: 12 February 2025</b>
 
 <h4> Background </h4>
 
