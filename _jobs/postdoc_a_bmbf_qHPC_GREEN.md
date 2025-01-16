@@ -9,7 +9,7 @@ permalink: /jobs/postdoc/qhpc-green-1
 
 <h3>
 <center>
-Postdoc (f/m/d) in <br>
+2-year Postdoc position (f/m/d) in <br>
 <i>Quantum Computing for Quantum Chemistry</i>
 </center>
 </h3>
