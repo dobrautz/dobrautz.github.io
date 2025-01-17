@@ -17,7 +17,8 @@ permalink: /jobs/postdoc/qhpc-green-1
 Official job advertisement: 
 <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73693'>Link</a> 
 <br>
-<b>Application deadline: 12 February 2025</b>
+<b>Application deadline: 12 February 2025</b><br>
+Salary and social benefits in accordance with the collective agreement for the public sector (E13, TVöD-Bund).
 
 <h4> Background </h4>
 
@@ -55,5 +56,9 @@ If you are interested please apply via HZDR online-application-system found on t
 
 If you have any questions, please reach out to me via: 
 <a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding qHPC-GREEN PostDoc ad">email</a>. 
+
+<h4>Application procedure</h4>
+Candidates are screened until the above mentioned application deadline. Suitable candidates are then invited to an online interview. Rejected candidates will be informed about the decision around or a few days after the application deadline.  
+
 
 {% include figure.html path="assets/img/BMBF_gefoerdert_2017_en.png" title="Funding" class="img-fluid rounded z-depth-1" zoomable=true %}
