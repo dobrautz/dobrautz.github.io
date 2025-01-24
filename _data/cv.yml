@@ -172,6 +172,19 @@
 - title: Invited Seminars
   type: time_table
   contents:
+
+    - title: 'CASUS Institute Talk, Görlitz, Germany'
+      year: 2025
+      description:
+        - 'High-performance and Quantum Computing for Strongly Correlated Problems'
+        - <a href='../assets/pdf/talk_casus.pdf'>Slides</a>
+
+    - title: 'CASUS Science Day 2024, Görlitz, Germany'
+      year: 2024
+      description:
+        - 'AI 4 Quantum -- Machine Learning for Quantum Simulation and Quantum Computing
+        - <a href='../assets/pdf/casus_science_day_2024.pdf'>Slides</a>
+
     - title: 'Fraunhofer IAO -- QuantumBW Colloquium, Stuttgart, Germany'
       year: 2024
       description:

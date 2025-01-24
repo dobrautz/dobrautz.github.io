@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Two Fully funded 3-year PhD Student (f/m/d)
-description: 
-Two PhD positions (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
+description: Two PhD positions (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
 importance: 5
 category: Hide
 permalink: /jobs/phd/scadsai-ab
