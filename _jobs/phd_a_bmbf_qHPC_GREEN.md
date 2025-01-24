@@ -50,5 +50,4 @@ If you have any questions, please reach out to me via:
 <h4>Application procedure</h4>
 Candidates are screened until the above mentioned application deadline. Suitable candidates are then invited to an online interview. Rejected candidates will be informed about the decision around or a few days after the application deadline.  
 
-
 {% include figure.html path="assets/img/BMBF_gefoerdert_2017_en.png" title="Funding" class="img-fluid rounded z-depth-1" zoomable=true %}
