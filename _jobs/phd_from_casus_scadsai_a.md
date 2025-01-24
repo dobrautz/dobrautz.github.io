@@ -4,6 +4,7 @@ title: Fully funded 3-year PhD Student (f/m/d)
 description: PhD Student (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
 importance: 1
 category: PhD
+img: assets/img/phd_icon.webp
 permalink: /jobs/phd/casus-scadsai-1
 ---
 

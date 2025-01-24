@@ -32,6 +32,6 @@ I acquired extensive conventional algorithm design and development expertise as 
 
 <h3>Information</h3>
 
-Read more about our group's research <a href='/projects/'>here</a> and stay tuned for upcoming <a href='/jobs/'>PhD and PostDoc openings!</a>
+Read more about our group's research <a href='/projects/'>here</a> and if you are interested in joining us have a look at our current <a href='/jobs/'>PhD and PostDoc openings!</a>
 
 We welcome inquiries from potential new group members and collaborators! Feel free to <a href="mailto:werner.dobrautz@gmail.com">contact us</a>! Prospective PhD students and Postdoctoral researchers can explore current and future opportunities <a href='/jobs/'>here</a>.
