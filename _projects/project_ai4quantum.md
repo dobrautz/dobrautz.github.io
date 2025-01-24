@@ -43,12 +43,12 @@ To achieve this goal, my team and I will pursue three separate yet complementary
 
 {% include figure.html path="assets/img/vision_ai_short.png" title="Vision AI 4 Quantum" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
-
-(Under construction)
-
 Hosted by:
 {% include figure.html path="assets/img/hosted_by/hosted_by.001.png" title="Hosted by" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
+<!-- 
 Funded by:
 {% include figure.html path="assets/img/funded_by/funded_by.001.png" title="Hosted by" class="center img-fluid rounded z-depth-1" zoomable=true %} 
+-->
+
 

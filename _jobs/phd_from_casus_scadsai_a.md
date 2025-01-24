@@ -15,8 +15,11 @@ Machine Learning for Quantum Computing and Simulation of Quantum Matter
  </i>
 </h3>
 
-Official job advertisement: <a href=''>TODO</a> <br>
-<b>Application deadline: TODO</b>
+Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73894'>Link</a> <br>
+<b>Application deadline: 28 February 2025</b> <br>
+Salary and social benefits in accordance with the collective agreement for the public sector (E13, TVöD-Bund).
+
+
 
 <h4> Background </h4>
 One of the main obstacles to advancing green technologies, such as bio-catalysis for efficient ammonia production is the complexity of their underlying quantum mechanical mechanisms. These processes, enabled by small quantum systems with strong electronic correlations, are not yet understood and pose significant challenges to experimental and theoretical investigations. Hence, there is a pressing need for sophisticated computational methods to elucidate these phenomena and support the development of green technologies. For example, artificial nitrogen fixation -- converting molecular nitrogen into ammonia -- at lower temperatures and pressures would offer a more sustainable alternative to the energy-intensive Haber-Bosch process, drastically reducing greenhouse gas emissions.
@@ -44,11 +47,15 @@ You can find more information about us, our research, and the PI here on our <a 
 
 We are dedicated to fostering a supportive and inclusive research environment that encourages scientific excellence. We welcome applications from individuals of all backgrounds and expressly invite members of underrepresented groups to apply.
 
-If you are interested please apply via HZDR online-application-system found on the bottom of the official job advertisement : <a href=''>TODO</a> <br>
+If you are interested please apply via HZDR online-application-system found on the bottom of the official job advertisement : <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73894'>Link</a> <br>
 <b>Only applications via the application system can be considered. </b>
 
 If you have any questions, please reach out to me via: 
-<a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding qHPC-GREEN-PhD ad">email</a>. 
+<a href="mailto:w.dobrautz@hzdr.de?subject=Questions regarding AI4Quantum-PhD ad">email</a>. 
+
+<h4>Application procedure</h4>
+Candidates are screened until the above mentioned application deadline. Suitable candidates are then invited to an online interview. Rejected candidates will be informed about the decision around or a few days after the application deadline.  
+
 
 {% include figure.html path="assets/img/hoste_by/hosted_by.001.png" title="Hosts" class="img-fluid rounded z-depth-1" zoomable=true %}
 
