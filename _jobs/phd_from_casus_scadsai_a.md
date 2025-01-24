@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Fully funded 3-year PhD Student (f/m/d)
-description: 
-PhD Student (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
+description: PhD Student (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
 importance: 1
 category: PhD
 permalink: /jobs/phd/casus-scadsai-1
@@ -52,6 +51,5 @@ If you have any questions, please reach out to me via:
 <h4>Application procedure</h4>
 Candidates are screened until the above mentioned application deadline. Suitable candidates are then invited to an online interview. Rejected candidates will be informed about the decision around or a few days after the application deadline.  
 
-
-{% include figure.html path="assets/img/hoste_by/hosted_by.001.png" title="Hosts" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/hosted_by/hosted_by.001.png" title="Hosts" class="img-fluid rounded z-depth-1" zoomable=true %}
 
