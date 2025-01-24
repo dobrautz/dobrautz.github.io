@@ -3,7 +3,7 @@ layout: page
 title: Fully funded 3-year PhD Student (f/m/d)
 description: 
 PhD Student (f/m/d) in Machine Learning for Quantum Computing and Simulation of Quantum Matter
-importance: 5
+importance: 1
 category: PhD
 permalink: /jobs/phd/casus-scadsai-1
 ---
@@ -13,6 +13,7 @@ Fully funded 3-year PhD Student (f/m/d) in <br>
 <i>
 Machine Learning for Quantum Computing and Simulation of Quantum Matter
  </i>
+ </center>
 </h3>
 
 Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73894'>Link</a> <br>

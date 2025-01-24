@@ -12,6 +12,7 @@ Two-year Postdoc (f/m/d) in <br>
 <i>
 Machine Learning for Quantum Computing and Simulation of Quantum Matter
  </i>
+ </center>
 </h3>
 
 Official job advertisement: <a href='https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=73944'>Link</a> <br>
