@@ -12,11 +12,16 @@ permalink: /projects/ai4quantum/
 Within the <b>AI 4 Quantum</b> project, we develop and apply novel machine learning (ML) approaches to enable the computational study of complex quantum systems relevant to the green energy transition. 
 The groups' research foci are: 
 
--- Developing novel neural network quantum states that efficiently describe complex quantum matter via physics-inspired and symmetry-preserving methods.  
+<ul>
+<li> Developing novel neural network quantum states that efficiently describe complex quantum matter via physics-inspired and symmetry-preserving methods.  
+</li>
 
--- Using deep learning methodologies to aid in quantum computing algorithm design and initialise noise-resilient quantum circuit Ansätze. 
+<li> Using deep learning methodologies to aid in quantum computing algorithm design and initialise noise-resilient quantum circuit Ansätze. 
+</li>
 
--- Extending the reach and enhancing the accuracy of existing quantum Monte Carlo methods for complex quantum systems through AI approaches.  <br>
+<li> Extending the reach and enhancing the accuracy of existing quantum Monte Carlo methods for complex quantum systems through AI approaches.  
+</li>
+</ul>
 
 {% include figure.html path="assets/img/venn_ai2.png" title="AI Venn" class="center img-fluid rounded z-depth-1" zoomable=true %} 
 
