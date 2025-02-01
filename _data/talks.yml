@@ -2,6 +2,12 @@
 - title: Invited Seminars
   type: time_table
   contents:
+    - title: 'Quantinuum Seminar, Cambridge, UK'
+      year: 2025
+      description:
+        - 'Reducing the Circuit Footprint for Noise-Resilient Quantum Chemistry via Transcorrelation and Adaptive Ans¨atze'
+        - <a href='../assets/pdf/quantinuum-talk-2025.pdf'>Slides</a>
+
     - title: 'CASUS Institute Talk, Görlitz, Germany'
       year: 2025
       description:
