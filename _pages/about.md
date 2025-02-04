@@ -6,7 +6,7 @@ subtitle: '<a href="https://dresden-concept.de/current/research-group-werner-dob
 
 profile:
   align: right
-  image: WDobrautz-4-comp.jpg
+  image: new_pic_crop.jpg
   image_circular: false # crops the image to make it circular
   address: 
 
