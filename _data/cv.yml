@@ -151,7 +151,7 @@
   type: nested_list
   contents:
     - title: Co-organizer of <a href="https://www.chalmers.se/en/conference/frontiers-of-near-term-quantum-computing">'Frontiers of near-term quantum computing workshop' </a> in Gothenburg, Sweden. 
-    - title: Reviewer for <em>ACS Omega, Molecular Physics, Physical Chemistry Chemical Physics, The Journal of Physical Chemistry, Quantum, The Journal of Chemical Physics, npj Quantum Information, Physical Review A, ACS Physical Chemistry Au, PRX Quantum, Physical Review Research, The Journal of Chemical Theory and Computation</em> and <em>The International Journal of Quantum Chemistry</em>
+    - title: Reviewer for <em>ACS Omega, WIREs Computational Molecular Science, Molecular Physics, Physical Chemistry Chemical Physics, The Journal of Physical Chemistry, Quantum, The Journal of Chemical Physics, npj Quantum Information, Physical Review A, ACS Physical Chemistry Au, PRX Quantum, Physical Review Research, The Journal of Chemical Theory and Computation</em> and <em>The International Journal of Quantum Chemistry</em>
     - title: Committee member of the Quantum Computing paper track of the <a href='https://isc-hpc.com/'>ISC High Performance 2024</a>
 
 - title: Open Source Projects
