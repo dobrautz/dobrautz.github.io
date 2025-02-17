@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🌟 Exciting News: Bundesministerium für Bildung und Forschung (BMBF) Support to establish my Research Group at the Center for Advanced Systems Understanding (CASUS) at HZDR (Helmholtz-Zentrum Dresden-Rossendorf (HZDR)) 🚀
+title: '🌟 Exciting News: Bundesministerium für Bildung und Forschung (BMBF) Support to establish my Research Group at the Center for Advanced Systems Understanding (CASUS) at HZDR (Helmholtz-Zentrum Dresden-Rossendorf (HZDR)) 🚀'
 date: 2025-02-15
 related_posts: false
 ---
