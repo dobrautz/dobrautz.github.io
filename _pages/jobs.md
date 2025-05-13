@@ -60,6 +60,8 @@ Join our open-minded, supportive, and ambitious research group in Dresden and GÃ
 {%- endif -%}
 </div>
 
+We are always open for interested Bachelor and Master students from the TU Dresden and the Zittau/GÃ¶rlitz University of Applied Sciences to work on their theses with us! Please just reach out to me! 
+
 <h4>
 We are also open and interested in assisting with applications for competitive postdoctoral research fellowships, like: 
 </h4>
