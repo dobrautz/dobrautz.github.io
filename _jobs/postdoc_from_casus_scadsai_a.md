@@ -3,7 +3,7 @@ layout: page
 title: Postdoc (f/m/d)
 description: PostDoc in Machine Learning for Quantum Computing and Simulation of Quantum Matter
 importance: 5
-category: PostDoc
+category: Hide
 img: assets/img/postdoc_icon.webp
 permalink: /jobs/postdoc/casus-scadsai-1
 ---

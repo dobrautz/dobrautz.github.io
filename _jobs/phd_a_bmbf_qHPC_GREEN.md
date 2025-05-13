@@ -3,7 +3,7 @@ layout: page
 title: Fully funded 3-year PhD Student (f/m/d)
 description: PhD Student (f/m/d) in Quantum Computing for Ground and Excited State Electronic Structure Calculations
 importance: 5
-category: PhD
+category: Hide
 img: assets/img/phd_icon.webp
 permalink: /jobs/phd/qhpc-green-1
 ---

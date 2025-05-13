@@ -3,7 +3,7 @@ layout: page
 title: Postdoc (f/m/d)
 description: Postdoc (f/m/d) in Quantum Computing for Quantum Chemistry
 importance: 5
-category: PostDoc
+category: Hide
 img: assets/img/postdoc_icon.webp
 permalink: /jobs/postdoc/qhpc-green-1
 ---
