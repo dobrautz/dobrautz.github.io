@@ -13,5 +13,11 @@ children:
     - title: divider
     - title: AI 4 Quantum
       permalink: /projects/ai4quantum/
+    - title: divider
+    - title: qFLOW
+      permalink: /projects/qflow/
+    - title: divider
+    - title: QT-Batt
+      permalink: /projects/qt-batt/
     
 ---

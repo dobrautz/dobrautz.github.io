@@ -4,7 +4,7 @@ title: Group
 permalink: /group/
 description: Dobrautz Lab
 nav: true
-display_categories: [Group Leader, PostDocs, PhDs, Bachelor/Master students, Collaborators, Alumni]
+display_categories: [Group Leader, PostDocs, PhDs, Scientific Assistants, Bachelor/Master students, Collaborators, Alumni]
 horizontal: true
 nav_order: 1
 ---
@@ -14,8 +14,9 @@ nav_order: 1
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized group -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.group | where: "category", category -%}
+  {%- if categorized_projects.size > 0 -%}
+  <h2 class="category">{{ category }}</h2>
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
@@ -32,6 +33,7 @@ nav_order: 1
       {% include projects.html %}
     {%- endfor %}
   </div>
+  {%- endif -%}
   {%- endif -%}
   {% endfor %}
 

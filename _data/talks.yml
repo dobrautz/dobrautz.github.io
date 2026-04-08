@@ -2,6 +2,36 @@
 - title: Invited Seminars
   type: time_table
   contents:
+    - title: 'QuSoft Seminar, University of Amsterdam, Amsterdam, The Netherlands'
+      year: 2025
+      description:
+        - 'Reducing the Circuit Footprint for Noise-Resilient Quantum Chemistry'
+
+    - title: 'Dresden Center for Intelligent Materials Seminar, TU Dresden, Dresden, Germany'
+      year: 2025
+      description:
+        - 'Bridging Classical, Quantum and Machine Learning: New Avenues to Studying Complex Quantum Materials'
+
+    - title: 'World of Quantum Fair, Munich, Germany'
+      year: 2025
+      description:
+        - 'Quantum-enhanced High-Performance Computing for the Green Energy Transition'
+
+    - title: 'Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) General Assembly, Dresden, Germany'
+      year: 2025
+      description:
+        - 'Machine Learning for Quantum Simulation and Quantum Computing'
+
+    - title: 'Research Center for Quantum Physics, National Research and Innovation Agency of Indonesia'
+      year: 2025
+      description:
+        - 'Reducing the Circuit Footprint for Noise-Resilient Quantum Chemistry'
+
+    - title: 'TU Dresden, Theoretical Chemistry Seminar, Dresden, Germany'
+      year: 2025
+      description:
+        - 'High-performance and Quantum Computing for Strongly Correlated Molecular Problems'
+
     - title: 'Quantinuum Seminar, Cambridge, UK'
       year: 2025
       description:
@@ -65,6 +95,46 @@
 - title: Conference Talks
   type: time_table
   contents:
+    - title: 'Invited Talk: Quantum Information Technology Norway, Simula Research Laboratory, Oslo, Norway'
+      year: 2025
+      description:
+      - Quantum Computing for Quantum Chemistry
+
+    - title: 'Invited Talk: Towards Sustainable Exploration of Chemical Spaces with Machine Learning Workshop, Dresden, Germany'
+      year: 2025
+      description:
+      - Quantum and Machine-Learning Approaches for Strongly Correlated Quantum Materials
+
+    - title: 'Invited Talk: Building Bridges Conference, Latest Findings in Artificial Intelligence, Dresden, Germany'
+      year: 2025
+      description:
+      - Quantum, Classical, and Machine Learning Synergies for Next-Generation Energy Materials
+
+    - title: 'Symposium on Theoretical Chemistry, Berlin, Germany'
+      year: 2025
+      description:
+      - Toward Realistic Energy Landscapes on Near-Term Quantum Hardware
+
+    - title: 'Invited Talk: Open Software for Neural Wavefunctions, CECAM Workshop, Lausanne, Switzerland'
+      year: 2025
+      description:
+      - Smoother Wavefunctions, Smaller Bases: Transcorrelated Approaches for Efficient Quantum Simulations
+
+    - title: 'Quantum Computing Theory in Practice (QCTIP), Berlin, Germany'
+      year: 2025
+      description:
+      - Reducing the Circuit Footprint for Noise-Resilient Quantum Chemistry
+
+    - title: 'Invited Talk: Quantum Digital Twin Masterclass, London, UK'
+      year: 2025
+      description:
+      - Reducing the Circuit Footprint for Noise-Resilient Quantum Chemistry via Transcorrelation and Adaptive Ansätze
+
+    - title: 'DPG Spring Meeting, Regensburg, Germany'
+      year: 2025
+      description:
+      - Enabling Accurate Quantum Chemistry on Current Quantum Hardware
+
     - title: 'Faraday Discussions on Correlated electronic structure, London'
       year: 2024 
       description: 

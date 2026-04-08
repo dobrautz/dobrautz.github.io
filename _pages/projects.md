@@ -33,8 +33,10 @@ Since December 2024, I am a DRESDEN-concept research group leader jointly appoin
 
 <h3>Research</h3>
 
- In my current role, I am building an <b>AI 4 Quantum</b> research group that focuses on developing a synergistic HPC+QC approach aided by novel artificial intelligence/deep machine learning methods to enable the computational study of complex quantum systems relevant to the green energy transition. 
-Additionally, my current research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly correlated electron problems on high-performance computing hardware and near-term quantum computing devices. <br>
+ In my current role, I am building an <b>AI 4 Quantum</b> research group that focuses on developing a synergistic HPC+QC approach aided by novel artificial intelligence and deep machine learning methods to enable the computational study of complex quantum systems relevant to the green energy transition.
+Additionally, my current research focuses on developing innovative quantum Monte Carlo methods and novel quantum computing algorithms to enable realistic electronic structure calculations for strongly correlated electron problems on high-performance computing hardware and near-term quantum computing devices.<br>
+
+This research is currently pursued through several complementary projects. In <b>qHPC-GREEN</b>, we develop hybrid HPC+QC approaches for strongly correlated molecular and materials problems relevant to the green energy transition. In <b>AI 4 Quantum</b>, we investigate machine-learning methods for quantum simulation and quantum computing. Through <b>qFLOW</b>, which is coordinated by our group at HZDR-CASUS, we extend these efforts toward quantum-enhanced simulations of complex fluid-flow problems relevant to climate resilience, water security, and energy applications. In <b>QT-Batt</b>, we contribute quantum-computing approaches for battery development and diagnostics as part of a broader Helmholtz collaboration on quantum technologies for energy storage. <br>
 
 {% include figure.html path="assets/img/venn.png" title="Venn diagram" class="center" %} 
 
