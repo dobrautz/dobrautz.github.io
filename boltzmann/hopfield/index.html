@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Hopfield Memory Playground</title>
+    <link rel="stylesheet" href="../assets/site.css">
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="../">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div class="nav-links"><a class="nav-link" href="../">Home</a><a class="nav-link" href="../boltzmann/">Boltzmann</a><a class="nav-link active" href="./">Hopfield</a><a class="nav-link" href="../boltzmann-machine/">BM</a><a class="nav-link" href="../rbm-playground/">RBM</a></div>
+      </nav>
+      <header class="page-header">
+        <p class="eyebrow">2. Hopfield network</p>
+        <h1>Memory as an energy minimum.</h1>
+        <p class="lede">A Hopfield network stores patterns in its couplings. Start from a corrupted pattern and apply deterministic updates to descend toward an attractor.</p>
+      </header>
+      <section class="lesson-grid">
+        <aside class="controls">
+          <div><p class="eyebrow">Stored pattern</p><h2>Corrupt, then recall</h2><p>Dark cells represent spin +1; light cells represent spin -1.</p></div>
+          <div class="button-row two"><button class="action selected" data-pattern="x" type="button">Store X</button><button class="action" data-pattern="ring" type="button">Store ring</button></div>
+          <div class="button-row"><button class="action" id="corruptButton" type="button">Flip 3 random spins</button><button class="action" id="stepButton" type="button">One deterministic update</button><button class="action primary" id="relaxButton" type="button">Relax to an attractor</button></div>
+          <div class="formula">E(s) = -1/2 sum(i,j) W_ij s_i s_j</div>
+        </aside>
+        <div class="experiment">
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Current state</p><h2>Network state</h2></div><p id="status">Start from a stored pattern or corrupt it.</p></div>
+            <div class="pattern-layout"><div class="spin-grid" id="spinGrid" aria-label="Current Hopfield state"></div><div class="pattern-copy"><p><strong>Stored target:</strong> <span id="targetName">X</span></p><p id="distanceText">Hamming distance: 0 of 9 spins.</p><p id="energyText">Energy: 0.000</p></div></div>
+          </section>
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Energy descent</p><h2>Each update cannot increase the energy</h2></div></div>
+            <div class="energy-trace" id="energyTrace" aria-label="Energy over updates"></div>
+          </section>
+        </div>
+      </section>
+      <footer class="topic-footer"><a href="../boltzmann/"><- Previous: Boltzmann factor</a><a href="../boltzmann-machine/">Next: Boltzmann sampling -></a></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

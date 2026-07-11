@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Boltzmann Factor Playground</title>
+    <link rel="stylesheet" href="../assets/site.css">
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="../">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div class="nav-links"><a class="nav-link" href="../">Home</a><a class="nav-link active" href="./">Boltzmann</a><a class="nav-link" href="../hopfield/">Hopfield</a><a class="nav-link" href="../boltzmann-machine/">BM</a><a class="nav-link" href="../rbm-playground/">RBM</a></div>
+      </nav>
+      <header class="page-header">
+        <p class="eyebrow">1. Boltzmann factor</p>
+        <h1>Energy becomes probability.</h1>
+        <p class="lede">A physical system can occupy several microstates. Their energies determine relative weights, while temperature controls how strongly energy differences matter.</p>
+      </header>
+      <section class="lesson-grid">
+        <aside class="controls">
+          <div><p class="eyebrow">Controls</p><h2>Set the energy landscape</h2><p>Choose a simple spectrum, then change the temperature.</p></div>
+          <div class="button-row">
+            <button class="action selected" data-spectrum="one-low" type="button">One low-energy state</button>
+            <button class="action" data-spectrum="two-low" type="button">Two low-energy states</button>
+            <button class="action" data-spectrum="flat" type="button">All energies equal</button>
+          </div>
+          <label class="control" for="temperature"><span>Temperature <output id="temperatureValue" for="temperature">1.0</output></span><input id="temperature" type="range" min="0.2" max="4" step="0.1" value="1"></label>
+          <label class="control" for="energyScale"><span>Energy scale <output id="energyScaleValue" for="energyScale">1.0</output></span><input id="energyScale" type="range" min="0.25" max="3" step="0.25" value="1"></label>
+        </aside>
+        <div class="experiment">
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Calculation</p><h2>Boltzmann weights</h2></div><p>weight(s) = exp[-E(s) / T]</p></div>
+            <div class="formula">p(s) = exp[-E(s)/T] / Z, &nbsp; Z = sum over all states of exp[-E(s)/T]</div>
+            <div class="bars" id="probabilityBars"></div>
+          </section>
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Interpretation</p><h2>What changed?</h2></div></div>
+            <div class="readout" id="readout"></div>
+          </section>
+        </div>
+      </section>
+      <footer class="topic-footer"><a href="../"><- Back to topics</a><a href="../hopfield/">Next: Hopfield memory -></a></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

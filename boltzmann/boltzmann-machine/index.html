@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Boltzmann Machine Sampling Playground</title>
+    <link rel="stylesheet" href="../assets/site.css">
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="../">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div class="nav-links"><a class="nav-link" href="../">Home</a><a class="nav-link" href="../boltzmann/">Boltzmann</a><a class="nav-link" href="../hopfield/">Hopfield</a><a class="nav-link active" href="./">BM</a><a class="nav-link" href="../rbm-playground/">RBM</a></div>
+      </nav>
+      <header class="page-header">
+        <p class="eyebrow">3. Boltzmann machine</p>
+        <h1>Keep the energy. Replace descent with sampling.</h1>
+        <p class="lede">A Boltzmann machine is an energy-based model with stochastic updates. Temperature means that higher-energy states remain possible rather than being rejected outright.</p>
+      </header>
+      <section class="lesson-grid">
+        <aside class="controls">
+          <div><p class="eyebrow">Two-spin model</p><h2>Set coupling and temperature</h2><p>Positive J favors alignment. Negative J favors anti-alignment.</p></div>
+          <label class="control" for="coupling"><span>Coupling J <output id="couplingValue" for="coupling">1.5</output></span><input id="coupling" type="range" min="-3" max="3" step="0.25" value="1.5"></label>
+          <label class="control" for="temperature"><span>Temperature T <output id="temperatureValue" for="temperature">1.0</output></span><input id="temperature" type="range" min="0.2" max="4" step="0.1" value="1"></label>
+          <div class="button-row"><button class="action primary" id="stepButton" type="button">Sample one Gibbs update</button><button class="action" id="runButton" type="button">Run 24 updates</button></div>
+          <div class="formula">E(s1,s2) = -J s1 s2<br>p(s) = exp[-E(s)/T] / Z</div>
+        </aside>
+        <div class="experiment">
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Exact distribution</p><h2>All four spin configurations</h2></div><p>spins are +1 or -1</p></div>
+            <div class="bars" id="probabilityBars"></div>
+          </section>
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Stochastic trajectory</p><h2>Gibbs sampling at the chosen temperature</h2></div></div>
+            <div class="pattern-layout"><div class="spin-grid" id="spinGrid" aria-label="Current two-spin state"></div><div class="pattern-copy"><p id="currentState">Current state: (+1, +1)</p><p id="alignment">Aligned: yes</p><p id="stepInfo">Press sample to update one randomly selected spin.</p></div></div>
+            <div class="energy-trace" id="trace" aria-label="Recent sampled energies"></div>
+            <p class="sample-box" id="sampleBox">At finite temperature, a higher-energy move can still occur.</p>
+          </section>
+        </div>
+      </section>
+      <footer class="topic-footer"><a href="../hopfield/"><- Previous: Hopfield memory</a><a href="../rbm-playground/">Next: Restricted Boltzmann machine -></a></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
