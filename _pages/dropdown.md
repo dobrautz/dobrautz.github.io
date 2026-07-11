@@ -7,6 +7,8 @@ dropdown: true
 children: 
     - title: Overview
       permalink: /projects/
+    - title: Boltzmann Machine Teaching Hub
+      permalink: /boltzmann/
     - title: divider
     - title: qHPC-GREEN
       permalink: /projects/qhpc/

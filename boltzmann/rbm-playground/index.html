@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Boltzmann Machines: Hidden Cause Playground</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="hub-nav" aria-label="Primary navigation">
+        <a href="../" class="hub-brand">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div><a href="../">Home</a><a href="../boltzmann/">Boltzmann</a><a href="../hopfield/">Hopfield</a><a href="../boltzmann-machine/">BM</a><a class="active" href="./">RBM</a></div>
+      </nav>
+      <header class="masthead">
+        <p class="eyebrow">A two-minute RBM experiment</p>
+        <h1>Can a hidden cause create visible correlation?</h1>
+        <p class="lede">Anna and Lukas have no direct connection. Tune a one-hidden-unit Boltzmann machine and watch their joint distribution change.</p>
+      </header>
+
+      <section class="challenge" aria-labelledby="challenge-title">
+        <p class="section-kicker">Challenge</p>
+        <h2 id="challenge-title">Make Anna-only and Lukas-only the two most likely observations.</h2>
+        <p>Use Bruno as a hidden cause: reward Anna when Bruno is present and discourage Lukas at the same time.</p>
+      </section>
+
+      <section class="playground" aria-label="Restricted Boltzmann machine playground">
+        <aside class="controls" aria-labelledby="controls-title">
+          <div>
+            <p class="section-kicker">Parameters</p>
+            <h2 id="controls-title">Tune the model</h2>
+            <p class="quiet">Biases set baseline tendencies. Weights connect each visitor to Bruno.</p>
+          </div>
+
+          <div class="preset-row" role="group" aria-label="Parameter presets">
+            <button class="preset active" type="button" data-preset="hidden-cause">Hidden cause</button>
+            <button class="preset" type="button" data-preset="independent">Independent</button>
+            <button class="preset" type="button" data-preset="together">Together</button>
+          </div>
+
+          <label class="slider-control" for="aA">
+            <span>Anna bias <output id="aAValue" for="aA">-2.0</output></span>
+            <input id="aA" type="range" min="-5" max="5" step="0.25" value="-2">
+          </label>
+          <label class="slider-control" for="aL">
+            <span>Lukas bias <output id="aLValue" for="aL">2.0</output></span>
+            <input id="aL" type="range" min="-5" max="5" step="0.25" value="2">
+          </label>
+          <label class="slider-control" for="b">
+            <span>Bruno bias <output id="bValue" for="b">0.0</output></span>
+            <input id="b" type="range" min="-5" max="5" step="0.25" value="0">
+          </label>
+          <label class="slider-control" for="wA">
+            <span>Anna-Bruno weight <output id="wAValue" for="wA">4.0</output></span>
+            <input id="wA" type="range" min="-6" max="6" step="0.25" value="4">
+          </label>
+          <label class="slider-control" for="wL">
+            <span>Lukas-Bruno weight <output id="wLValue" for="wL">-4.0</output></span>
+            <input id="wL" type="range" min="-6" max="6" step="0.25" value="-4">
+          </label>
+
+          <button class="reset-button" id="resetButton" type="button">Reset hidden-cause model</button>
+        </aside>
+
+        <div class="model-surface">
+          <section class="network-section" aria-labelledby="network-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Restricted architecture</p>
+                <h2 id="network-title">No Anna-Lukas edge</h2>
+              </div>
+              <p class="legend"><span class="legend-line positive"></span> positive weight <span class="legend-line negative"></span> negative weight</p>
+            </div>
+
+            <div class="network-wrap">
+              <svg class="network" viewBox="0 0 560 260" role="img" aria-label="Network with Anna and Lukas visible units connected to Bruno hidden unit">
+                <line id="edgeAnna" x1="178" y1="68" x2="386" y2="132"></line>
+                <line id="edgeLukas" x1="178" y1="194" x2="386" y2="132"></line>
+                <text id="edgeAnnaLabel" x="278" y="78">+4.0</text>
+                <text id="edgeLukasLabel" x="278" y="200">-4.0</text>
+                <g class="node visible-node">
+                  <circle cx="132" cy="55" r="43"></circle>
+                  <text x="132" y="50">Anna</text>
+                  <text class="node-subtitle" id="annaBias" x="132" y="72">bias -2.0</text>
+                </g>
+                <g class="node visible-node lukas-node">
+                  <circle cx="132" cy="205" r="43"></circle>
+                  <text x="132" y="200">Lukas</text>
+                  <text class="node-subtitle" id="lukasBias" x="132" y="222">bias +2.0</text>
+                </g>
+                <g class="node hidden-node">
+                  <circle cx="430" cy="130" r="50"></circle>
+                  <text x="430" y="125">Bruno</text>
+                  <text class="node-subtitle" id="brunoBias" x="430" y="148">bias +0.0</text>
+                </g>
+                <text class="layer-label" x="84" y="252">visible units</text>
+                <text class="layer-label" x="380" y="252">hidden unit</text>
+              </svg>
+            </div>
+          </section>
+
+          <section class="distribution-section" aria-labelledby="distribution-title">
+            <div class="section-heading compact">
+              <div>
+                <p class="section-kicker">Exact visible distribution</p>
+                <h2 id="distribution-title">What the model predicts</h2>
+              </div>
+              <p class="formula">p(v) = sum<sub>h</sub> exp(score(v,h)) / Z</p>
+            </div>
+            <div class="probability-chart" id="probabilityChart" aria-label="Visible state probabilities"></div>
+          </section>
+
+          <section class="inference-section" aria-labelledby="inference-title">
+            <div>
+              <p class="section-kicker">Hidden inference</p>
+              <h2 id="inference-title">What does each observation imply about Bruno?</h2>
+            </div>
+            <div class="inference-grid" id="inferenceGrid"></div>
+          </section>
+
+          <section class="sampling-section" aria-labelledby="sampling-title">
+            <div>
+              <p class="section-kicker">Alternating Gibbs sampling</p>
+              <h2 id="sampling-title">Sample one visible-hidden-visible step</h2>
+            </div>
+            <div class="sampling-controls">
+              <label for="initialState">Start from</label>
+              <select id="initialState">
+                <option value="00">Nobody visits</option>
+                <option value="10" selected>Anna only</option>
+                <option value="01">Lukas only</option>
+                <option value="11">Both visit</option>
+              </select>
+              <button id="gibbsButton" type="button">Sample Gibbs step</button>
+            </div>
+            <p class="sample-result" id="sampleResult" aria-live="polite">Choose a starting observation, then sample Bruno and the next visible state.</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="takeaway" aria-labelledby="takeaway-title">
+        <p class="section-kicker">Takeaway</p>
+        <h2 id="takeaway-title">An RBM uses hidden variables to shape visible correlations.</h2>
+        <p>The visible units are conditionally independent once Bruno is fixed. After Bruno is hidden again, Anna and Lukas can appear correlated.</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

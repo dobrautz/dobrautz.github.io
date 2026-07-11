@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Boltzmann Machine Teaching Hub</title>
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="./">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div class="nav-links"><a class="nav-link active" href="./">Home</a><a class="nav-link" href="boltzmann/">Boltzmann</a><a class="nav-link" href="hopfield/">Hopfield</a><a class="nav-link" href="boltzmann-machine/">BM</a><a class="nav-link" href="rbm-playground/">RBM</a></div>
+      </nav>
+
+      <header class="home-hero">
+        <p class="eyebrow">Short interactive experiments</p>
+        <h1>Energy, memory, probability, and hidden variables.</h1>
+        <p class="lede">Each experiment isolates one central idea behind Hopfield networks, Boltzmann machines, and restricted Boltzmann machines. Use one during a lecture, or let people explore after scanning a QR code.</p>
+      </header>
+
+      <section class="topic-grid" aria-label="Choose a topic">
+        <a class="topic-card" href="boltzmann/">
+          <div class="card-visual levels"><span></span><span></span><span></span></div>
+          <div><p class="eyebrow">1. Boltzmann factor</p><h2>Energy becomes probability</h2><p>Change temperature and energy levels. See why low energy is favored and why the partition function is needed.</p></div>
+          <span class="go">Open experiment -></span>
+        </a>
+        <a class="topic-card" href="hopfield/">
+          <div class="card-visual grid-preview"><i></i><i class="light"></i><i></i><i class="light"></i><i></i><i class="light"></i><i></i><i class="light"></i><i></i></div>
+          <div><p class="eyebrow">2. Hopfield network</p><h2>Memory as an attractor</h2><p>Corrupt a stored pattern, then let deterministic energy descent recover a nearby memory.</p></div>
+          <span class="go">Open experiment -></span>
+        </a>
+        <a class="topic-card" href="boltzmann-machine/">
+          <div class="card-visual spin-preview"><span>+1</span><b>J</b><span>-1</span></div>
+          <div><p class="eyebrow">3. Boltzmann machine</p><h2>From descent to sampling</h2><p>Keep an Ising-like energy, add temperature, and watch stochastic Gibbs updates explore a distribution.</p></div>
+          <span class="go">Open experiment -></span>
+        </a>
+        <a class="topic-card" href="rbm-playground/">
+          <div class="card-visual rbm-preview"><i></i><i></i><i></i></div>
+          <div><p class="eyebrow">4. Restricted Boltzmann machine</p><h2>Hidden causes create correlations</h2><p>Tune a visible-hidden model for Anna, Lukas, and Bruno. Inspect probabilities and sample one Gibbs step.</p></div>
+          <span class="go">Open experiment -></span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
