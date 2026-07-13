@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14342f">
+    <title>Boltzmann Machines: Lecture Companion</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell lecture-shell">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="../">BOLTZMANN MACHINE TEACHING HUB</a>
+        <div class="nav-links"><a class="nav-link" href="../">Home</a><a class="nav-link active" href="./">Lecture companion</a></div>
+      </nav>
+
+      <header class="page-header lecture-header">
+        <p class="eyebrow">Companion to the 15-minute lecture</p>
+        <h1>From deterministic memory to probabilistic learning.</h1>
+        <p class="lede">These three small models follow the lecture sequence. Each calculation is exact, so every number can be inspected rather than taken on trust.</p>
+      </header>
+
+      <section class="lecture-step" aria-labelledby="transitionTitle">
+        <div class="step-copy">
+          <p class="eyebrow">1. Hopfield to Boltzmann</p>
+          <h2 id="transitionTitle">Replace a threshold by a probability.</h2>
+          <p>For one binary neuron, its local field h is the weighted input plus bias. A Hopfield net uses its sign. A Boltzmann machine samples from the same local energy difference at finite temperature.</p>
+          <div class="formula">Hopfield: s = 1 when h &gt; 0 &nbsp; | &nbsp; Boltzmann machine: p(s = 1) = 1 / [1 + exp(-h/T)]</div>
+        </div>
+        <div class="step-tool">
+          <label class="control" for="localField"><span>Local field h <output id="localFieldOutput">+1.00</output></span><input id="localField" type="range" min="-4" max="4" value="1" step="0.25"></label>
+          <label class="control" for="localTemperature"><span>Temperature T <output id="localTemperatureOutput">1.00</output></span><input id="localTemperature" type="range" min="0.2" max="4" value="1" step="0.1"></label>
+          <div class="update-comparison">
+            <div class="update-card"><p class="eyebrow">Hopfield, T = 0</p><strong id="deterministicState">s = 1</strong><span>deterministic threshold</span></div>
+            <div class="update-card"><p class="eyebrow">Boltzmann machine</p><strong id="probabilisticState">p(s = 1) = 0.73</strong><span id="sampledState">last sample: s = 1</span></div>
+          </div>
+          <div class="sigmoid-plot-wrap">
+            <p class="eyebrow">Sigmoid activation at the selected temperature</p>
+            <svg class="sigmoid-plot" id="sigmoidPlot" viewBox="0 0 560 230" role="img" aria-label="Probability of a unit being on as a function of local field"></svg>
+          </div>
+          <button class="action primary" id="sampleUnitButton" type="button">Sample the Boltzmann unit</button>
+        </div>
+      </section>
+
+      <section class="lecture-step" aria-labelledby="memoryTitle">
+        <div class="step-copy">
+          <p class="eyebrow">2. Hopfield associative memory</p>
+          <h2 id="memoryTitle">A learned energy minimum can repair a corrupted pattern.</h2>
+          <p>This three-unit Hopfield network was configured to store <strong>101</strong>. The positive coupling between units 1 and 3, together with its bias fields, makes 101 the unique lowest-energy state.</p>
+          <div class="formula">E(s) = -s<sub>1</sub>s<sub>3</sub> - 0.5s<sub>1</sub> + s<sub>2</sub> - 0.5s<sub>3</sub></div>
+          <p class="small-note">Click a bit to create your own corrupted input, then run a deterministic sweep. The network moves downhill in its discrete energy landscape.</p>
+        </div>
+        <div class="step-tool">
+          <div class="memory-layout">
+            <div><p class="eyebrow">Current state</p><div class="memory-bits" id="memoryBits" aria-label="Editable three-unit Hopfield state"></div><p class="memory-readout" id="memoryReadout"></p></div>
+            <div class="memory-network-panel"><p class="eyebrow">Network and local fields</p><svg class="memory-network" id="memoryNetwork" viewBox="0 0 300 225" role="img" aria-label="Three-unit Hopfield network with a positive coupling between units one and three"></svg></div>
+            <div><p class="eyebrow">All possible states</p><div class="memory-energies" id="memoryEnergies" aria-label="Energies of all three-unit states"></div></div>
+          </div>
+          <div class="button-row two"><button class="action" id="corruptMemoryButton" type="button">Corrupt 101 to 111</button><button class="action primary" id="memorySweepButton" type="button">Run deterministic sweep</button><button class="action" id="memoryResetButton" type="button">Reset to 101</button></div>
+          <p class="learning-message" id="memoryMessage">101 is the stored attractor.</p>
+        </div>
+      </section>
+
+      <section class="lecture-step" aria-labelledby="distributionTitle">
+        <div class="step-copy">
+          <p class="eyebrow">3. Boltzmann probability</p>
+          <h2 id="distributionTitle">Energy becomes a distribution over states.</h2>
+          <p>For two visible binary units, a positive coupling J favors the jointly active state. The partition function Z normalizes the probabilities over all four configurations.</p>
+          <div class="formula">E(v<sub>1</sub>,v<sub>2</sub>) = -J v<sub>1</sub>v<sub>2</sub> &nbsp; | &nbsp; p(v) = exp[-E(v)/T] / Z</div>
+        </div>
+        <div class="step-tool">
+          <div class="two-controls">
+            <label class="control" for="pairCoupling"><span>Coupling J <output id="pairCouplingOutput">+2.00</output></span><input id="pairCoupling" type="range" min="-3" max="3" value="2" step="0.25"></label>
+            <label class="control" for="pairTemperature"><span>Temperature T <output id="pairTemperatureOutput">1.00</output></span><input id="pairTemperature" type="range" min="0.2" max="4" value="1" step="0.1"></label>
+          </div>
+          <div class="compact-bars" id="pairBars" aria-label="Exact two-unit probability distribution"></div>
+          <div class="distribution-readout"><span>Z = <strong id="partitionFunction">0.00</strong></span><span id="pairSummary">The state 11 has the lowest energy.</span></div>
+        </div>
+      </section>
+
+      <section class="lecture-step learning-step" aria-labelledby="learningTitle">
+        <div class="step-copy">
+          <p class="eyebrow">4. Positive and negative phases</p>
+          <h2 id="learningTitle">Learning compares data correlations with model correlations.</h2>
+          <p>A tiny Boltzmann machine has two visible units and one hidden unit. During the positive phase, visible data are clamped to <strong>v = (1, 0)</strong>. During the negative phase, the model is allowed to run freely.</p>
+          <div class="formula">Delta W<sub>i</sub> = eta [ &lt;v<sub>i</sub>h&gt;<sub>data</sub> - &lt;v<sub>i</sub>h&gt;<sub>model</sub> ]<br>Delta a<sub>i</sub> = eta [ &lt;v<sub>i</sub>&gt;<sub>data</sub> - &lt;v<sub>i</sub>&gt;<sub>model</sub> ], &nbsp; Delta b = eta [ &lt;h&gt;<sub>data</sub> - &lt;h&gt;<sub>model</sub> ]</div>
+          <p class="small-note">The model averages are evaluated exactly over eight states here; each click uses eta = 0.7. A realistic Boltzmann machine instead estimates them by sampling.</p>
+        </div>
+        <div class="step-tool">
+          <div class="tiny-network" aria-label="Two visible units connected to one hidden unit">
+            <div class="visible-node">v1<br><strong>1</strong></div><div class="network-line line-one"></div><div class="hidden-node">h</div><div class="network-line line-two"></div><div class="visible-node">v2<br><strong>0</strong></div>
+          </div>
+          <div class="phase-grid">
+            <div class="phase positive-phase"><p class="eyebrow">Positive phase</p><strong id="positiveCorrelation">&lt;v h&gt;data = (0.500, 0.000)</strong><span>visible units fixed to the training pattern</span></div>
+            <div class="phase negative-phase"><p class="eyebrow">Negative phase</p><strong id="negativeCorrelation">&lt;v h&gt;model = (0.250, 0.250)</strong><span>all states contribute according to p(v, h)</span></div>
+          </div>
+          <p class="bias-update-note" id="biasUpdateNote"></p>
+          <div class="training-distribution-wrap">
+            <div class="section-heading"><div><p class="eyebrow">What is being trained</p><h3>Visible-state distribution</h3></div><p>teal: model p(v); coral: empirical data p<sub>data</sub>(v)</p></div>
+            <div class="training-distribution" id="trainingDistribution" aria-label="Model and data probability distributions over visible states"></div>
+          </div>
+          <div class="gradient-grid"><span>W<sub>1</sub> = <strong id="weightOne">+0.000</strong></span><span>W<sub>2</sub> = <strong id="weightTwo">+0.000</strong></span><span>a<sub>1</sub> = <strong id="visibleBiasOne">+0.000</strong></span><span>a<sub>2</sub> = <strong id="visibleBiasTwo">+0.000</strong></span><span>b = <strong id="hiddenBias">+0.000</strong></span><span>p<sub>model</sub>(1,0) = <strong id="dataProbability">0.250</strong></span></div>
+          <div class="button-row two"><button class="action primary" id="learnStepButton" type="button">Apply one learning update</button><button class="action" id="learnRunButton" type="button">Apply 10 updates</button><button class="action" id="learnResetButton" type="button">Reset model</button></div>
+          <p class="learning-message" id="learningMessage">The model initially treats all visible patterns equally.</p>
+        </div>
+      </section>
+
+      <section class="lecture-step" aria-labelledby="hiddenTitle">
+        <div class="step-copy">
+          <p class="eyebrow">5. Hidden units</p>
+          <h2 id="hiddenTitle">A hidden unit can represent a feature shared by visible data.</h2>
+          <p>Visible units are the observed data. Hidden units are not extra measurements: their activations are inferred from the visible configuration. In this hand-designed toy, h<sub>1</sub> is likely when both endpoints are active, while h<sub>2</sub> is likely for an isolated active middle unit.</p>
+          <div class="formula">p(h<sub>j</sub> = 1 | v) = 1 / [1 + exp(-b<sub>j</sub> - sum(i) W<sub>ij</sub>v<sub>i</sub>)]</div>
+          <p class="small-note">The weights here are chosen to make the mechanism inspectable, not fitted from data. A trained RBM would discover whatever hidden features best explain its training distribution.</p>
+        </div>
+        <div class="step-tool">
+          <div class="feature-layout">
+            <div><p class="eyebrow">Visible pattern v</p><div class="feature-bits" id="featureBits" aria-label="Editable visible pattern"></div><div class="button-row feature-presets" id="featurePresets"></div></div>
+            <div class="feature-arrow" aria-hidden="true">-></div>
+            <div><p class="eyebrow">Inferred hidden features</p><div class="hidden-features" id="hiddenFeatures" aria-label="Hidden-unit activation probabilities"></div></div>
+          </div>
+          <p class="learning-message" id="featureMessage">For v = 101, the endpoint feature h1 is much more likely than the middle feature h2.</p>
+        </div>
+      </section>
+
+      <footer class="topic-footer"><a href="../"><- Back to teaching hub</a><a href="../hopfield/">Explore the full Hopfield example -></a></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

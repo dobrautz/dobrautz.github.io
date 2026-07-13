@@ -109,6 +109,42 @@ input[type="range"] { width: 100%; margin-top: 8px; accent-color: var(--teal); }
 .topic-footer a { color: var(--deep-teal); font-size: 0.9rem; font-weight: 800; text-decoration: none; }
 .topic-footer a:hover { text-decoration: underline; }
 
+.learning-section { display: grid; grid-template-columns: minmax(240px, 0.74fr) minmax(0, 1.8fr); gap: 34px; padding: 38px 0 45px; border-top: 1px solid var(--line); }
+.learning-intro p, .learning-status, .learning-note { color: var(--muted); }
+.learning-intro .formula { margin: 18px 0; }
+.learning-controls { padding-right: 28px; border-right: 1px solid var(--line); }
+.learning-controls > * + * { margin-top: 18px; }
+.learning-status { min-height: 68px; margin-bottom: 0; font-size: 0.92rem; }
+.learning-views { display: grid; gap: 27px; }
+.learning-views section + section { padding-top: 27px; border-top: 1px solid var(--line); }
+.matrix-wrap { margin-top: 16px; overflow-x: auto; }
+.matrix-grid { display: grid; grid-template-columns: repeat(4, 56px); gap: 5px; width: max-content; }
+.matrix-cell { display: grid; place-items: center; width: 56px; height: 42px; border-radius: 3px; font-variant-numeric: tabular-nums; font-size: 0.81rem; font-weight: 800; }
+.matrix-cell.positive { background: #cfe9e2; color: #0d4b43; }
+.matrix-cell.negative { background: #f7d9d2; color: #883622; }
+.matrix-cell.zero { background: #e9edeb; color: var(--muted); }
+.bias-vector { display: grid; grid-template-columns: repeat(4, minmax(54px, 1fr)); gap: 5px; margin-top: 10px; }
+.bias-cell { padding: 8px 4px; border-radius: 3px; font-size: 0.74rem; font-weight: 800; text-align: center; font-variant-numeric: tabular-nums; }
+.bias-cell.positive { background: #cfe9e2; color: #0d4b43; }
+.bias-cell.negative { background: #f7d9d2; color: #883622; }
+.bias-cell.zero { background: #e9edeb; color: var(--muted); }
+.landscape-key { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0 8px; color: var(--muted); font-size: 0.78rem; font-weight: 750; }
+.landscape-key span::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 5px; background: var(--teal); }
+.landscape-key .key-a::before { background: var(--blue); }
+.landscape-key .key-b::before { background: var(--coral); }
+.landscape-key .key-low::before { background: var(--teal); }
+.landscape-key .key-high::before { background: var(--gold); }
+.landscape { display: grid; grid-template-columns: repeat(16, minmax(18px, 1fr)); gap: 4px; min-height: 172px; margin-top: 4px; }
+.landscape-item { min-width: 0; color: var(--muted); font-size: 0.62rem; font-weight: 780; text-align: center; }
+.landscape-track { position: relative; height: 145px; background: linear-gradient(to bottom, transparent calc(50% - 1px), var(--line) calc(50% - 1px), var(--line) calc(50% + 1px), transparent calc(50% + 1px)); }
+.landscape-fill { position: absolute; right: 10%; left: 10%; background: var(--teal); transition: height 170ms ease; }
+.landscape-fill.lower { top: 50%; }
+.landscape-fill.higher { bottom: 50%; background: var(--gold); }
+.landscape-item.a .landscape-fill { background: var(--blue); }
+.landscape-item.b .landscape-fill { background: var(--coral); }
+.landscape-item span { display: block; overflow: hidden; margin-top: 5px; text-overflow: clip; white-space: nowrap; }
+.learning-note { grid-column: 1 / -1; margin: 0; padding: 14px 16px; border-left: 4px solid var(--violet); background: #f0ebf8; font-size: 0.9rem; }
+
 @media (max-width: 820px) {
   .site-nav { min-height: 58px; }
   .nav-links { gap: 2px; }
@@ -117,6 +153,8 @@ input[type="range"] { width: 100%; margin-top: 8px; accent-color: var(--teal); }
   .topic-card { min-height: 215px; }
   .lesson-grid { grid-template-columns: 1fr; gap: 28px; }
   .controls { padding: 0 0 29px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .learning-section { grid-template-columns: 1fr; gap: 28px; }
+  .learning-controls { padding: 0 0 28px; border-right: 0; border-bottom: 1px solid var(--line); }
 }
 
 @media (max-width: 520px) {
@@ -136,4 +174,6 @@ input[type="range"] { width: 100%; margin-top: 8px; accent-color: var(--teal); }
   .spin-grid { grid-template-columns: repeat(3, 1fr); width: 100%; }
   .spin-cell { width: 100%; aspect-ratio: 1; height: auto; }
   .button-row.two { grid-template-columns: 1fr; }
+  .landscape { grid-template-columns: repeat(8, minmax(28px, 1fr)); gap: 6px; }
+  .landscape-track { height: 104px; }
 }
