@@ -36,6 +36,33 @@
           </section>
         </div>
       </section>
+      <section class="learning-section" aria-labelledby="learningTitle">
+        <div class="learning-intro">
+          <p class="eyebrow">How a Hopfield network learns</p>
+          <h2 id="learningTitle">Hebbian learning reshapes the energy landscape.</h2>
+          <p>A Hopfield network does not receive its weights by hand. For every training pattern xi<sup>mu</sup>, it strengthens pairs of spins that agree, weakens pairs that disagree, and learns a one-spin bias:</p>
+          <div class="formula">W<sub>ij</sub> = (1/N) sum(mu) xi<sub>i</sub><sup>mu</sup> xi<sub>j</sub><sup>mu</sup>, &nbsp; h<sub>i</sub> = (1/N) sum(mu) xi<sub>i</sub><sup>mu</sup>, &nbsp; W<sub>ii</sub> = 0</div>
+          <p>This four-spin example learns two training data: A = <strong>++--</strong> and B = <strong>+-+-</strong>. Move through the data stream and inspect the couplings and every possible state energy.</p>
+        </div>
+        <div class="learning-controls">
+          <label class="control" for="learningAmount"><span>Hebbian updates added <output id="learningAmountOutput">0.00 / 2.00</output></span><input id="learningAmount" type="range" min="0" max="2" value="0" step="0.05"></label>
+          <div class="button-row"><button class="action" id="nextDatumButton" type="button">Add next training pattern</button><button class="action primary" id="resetLearningButton" type="button">Reset weights</button></div>
+          <p id="learningStatus" class="learning-status"></p>
+        </div>
+        <div class="learning-views">
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Learned parameters</p><h3>Weight matrix W and bias h</h3></div><p>Diagonal entries are fixed to zero.</p></div>
+            <div class="matrix-wrap"><div class="matrix-grid" id="weightMatrix" aria-label="Hopfield weight matrix"></div></div>
+            <div class="bias-vector" id="biasVector" aria-label="Hopfield bias vector"></div>
+          </section>
+          <section>
+            <div class="section-heading"><div><p class="eyebrow">Exact energy landscape</p><h3>All 16 configurations</h3></div><p>Lower bars are lower-energy states.</p></div>
+            <div class="landscape-key"><span class="key-a">training pattern A</span><span class="key-b">training pattern B</span><span class="key-low">other state, E &lt; 0</span><span class="key-high">other state, E &gt; 0</span></div>
+            <div class="landscape" id="learningLandscape" aria-label="Energy landscape for all four-spin configurations"></div>
+          </section>
+        </div>
+        <p class="learning-note">The energy is E(s) = -1/2 sum(i,j) W<sub>ij</sub>s<sub>i</sub>s<sub>j</sub> - sum(i) h<sub>i</sub>s<sub>i</sub>. The learned bias h breaks the global spin-flip symmetry, so A and B are lower than -A and -B. In the special zero-bias Hopfield model, those pairs would be degenerate.</p>
+      </section>
       <footer class="topic-footer"><a href="../boltzmann/"><- Previous: Boltzmann factor</a><a href="../boltzmann-machine/">Next: Boltzmann sampling -></a></footer>
     </main>
     <script src="app.js"></script>
